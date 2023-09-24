@@ -1,0 +1,6 @@
+{
+    "isBaseRuleset": true,
+    "constants": {
+        "maxXPfromBarbarians":150
+    }
+}

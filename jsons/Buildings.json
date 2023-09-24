@@ -1,0 +1,1113 @@
+[
+    //AI Exclusives
+	{
+		"name": "AI Mechanics",
+		"isNationalWonder": true,
+		"requiredBuilding": "Center Base",
+		"cost": 1,
+		"uniques": [
+		"[+30]% Production when constructing [Infantry] units [in all cities] <starting from the [Level 3]>",
+		"[+40]% Production when constructing [Armor] units [in all cities] <starting from the [Level 4]>",
+		"[+40]% Production when constructing [Air] units [in all cities] <starting from the [Level 5]>",
+		"Provides [1] [Nova] <after discovering [Outposts]>",
+		"Provides [4] [Nova] <after discovering [Temples]>",
+		"Provides [9] [Nova] <after discovering [The Force]>",
+		"Provides [10] [Energy] <after discovering [Power Cores]>",
+		"Provides [6] [Carbon] <after discovering [Research]>",
+		"Provides [4] [Battery] <after discovering [Mechs]>",
+		"Provides [4] [Engine] <after discovering [Spaceports]>",
+        "[+1 Culture] [in all cities] <starting from the [Level 2]>",
+		"[+2 Food] [in all cities] <starting from the [Level 2]>",
+		"[+1 Production] [in all cities] <starting from the [Level 2]>",
+		"Free [Expansion Builder] appears <upon discovering [Expansion]>",
+		"Free [Settler] appears <upon discovering [Power Cores]>",
+		"Free [Settler] appears <upon discovering [Advanced Energy]>",
+		"Free [Settler] appears <upon discovering [Fortress]>",
+		"Free [Military Builder] appears <upon discovering [Advanced Military]>",
+		"Free [Research Builder] appears <upon discovering [Processing]>",
+		"Free [Worker] appears <upon discovering [Supplies]>",
+		"Free [Military Builder] appears <upon discovering [Mechs]>",
+		"Free [Expansion Builder] appears <upon discovering [Spaceports]>",
+		"Free [Expansion Builder] appears <upon discovering [Scanning]>",
+		"Provides [20] [Energy] <starting from the [Level 2]>",
+		"Provides [30] [Energy] <starting from the [Level 3]>",
+		"Provides [40] [Energy] <starting from the [Level 4]>",
+		"Provides [50] [Energy] <starting from the [Level 2]>",
+		"Provides [23] [Carbon] <starting from the [Level 2]>",
+		"Provides [22] [Battery] <starting from the [Level 3]>",
+		"Provides [22] [Battery] <starting from the [Level 4]>",
+		"Provides [23] [Engine] <starting from the [Level 4]>",
+		"Provides [22] [Reactor] <starting from the [Level 5]>",
+		"Provides [26] [Carbon] <starting from the [Level 3]>",
+		"Provides [42] [Carbon] <starting from the [Level 4]>",
+		"Provides [30] [Battery] <starting from the [Level 4]>",
+		"Provides [30] [Battery] <starting from the [Level 5]>",
+		"Provides [16] [Engine] <starting from the [Level 4]>",
+		"Provides [22] [Engine] <starting from the [Level 5]>",
+		"Provides [4] [Reactor] <starting from the [Level 4]>",
+		"Provides [12] [Reactor] <starting from the [Level 5]>",
+		"Free [Strategic Worker] appears <after discovering [Processing]>",
+		"Provides [2] [Ore] <after discovering [Power Cores]>",
+		"[+1] Unit Supply per [3] population [in all cities]",
+		"[-50]% Unhappiness from [Population] [in all cities]",
+		"[-40]% Unhappiness from [Population] [in all cities] <starting from the [Level 3]>",
+		"[+1 Production] [in all cities] <starting from the [Level 1]>",
+		"[+1 Food] [in all cities] <starting from the [Level 1]>",
+		"[+2 Faith] [in all cities] <starting from the [Level 3]>",
+		"[+2 Production] [in all cities] <starting from the [Level 3]>",
+		"[+3 Food] [in all cities] <starting from the [Level 3]>",
+		"[+2 Culture] [in all cities] <starting from the [Level 3]>",
+		"[+2 Science] [in all cities] <starting from the [Level 3]>",
+		"[+4 Food] [in all cities] <starting from the [Level 4]>",
+		"[+4 Production] [in all cities] <starting from the [Level 4]>",
+		"[+4 Culture] [in all cities] <starting from the [Level 4]>",
+		"[+4 Science] [in all cities] <starting from the [Level 4]>",
+		"[+5 Food] [in all cities] <starting from the [Level 5]>",
+		"[+2 Production] [in all cities] <starting from the [Level 5]>",
+		"[+2 Culture] [in all cities] <starting from the [Level 5]>",
+		"[+2 Science] [in all cities] <starting from the [Level 5]>",
+		"Destroyed when the city is captured",
+		"Will not be displayed in Civilopedia",
+		"Only available <after discovering [AI Mechanics]>",
+		"Automatically built in all cities where it is buildable"]
+	},
+	
+	//Exclusives
+	{
+		"name": "Free Nova",
+		"uniques": ["Provides [2] [Nova]",
+		"Destroyed when the city is captured",
+		"Will not be displayed in Civilopedia",
+		"Unbuildable"]
+	},
+	{
+		"name": "Free Energy",
+		"uniques": ["Provides [3] [Energy]",
+		"Destroyed when the city is captured",
+		"Will not be displayed in Civilopedia",
+		"Unbuildable"]
+	},
+	{
+		"name": "Sith Shrine",
+		"cost": 1,
+		"specialistSlots": {"Cultist": 1},
+		"uniqueTo": "The Sith Eternal",
+		"uniques": ["Destroyed when the city is captured",
+		"Unbuildable"]
+	},
+	//Level 1
+    {
+		"name": "Center Base",
+		"isNationalWonder": true,
+		"production": 1,
+		"science": 1,
+		"gold": 2,
+		"culture": 1,
+		"cityStrength": 4,
+		"cost": 1,
+		"uniques": ["Indicates the capital city","Provides [5] [Energy]","Provides [3] [Carbon]","Provides [2] [Battery]","Provides [1] [Ore]"]
+	},
+	{
+		"name": "Official Annexation",
+	    "cost": 20,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]"]
+	},
+	{
+		"name": "Hunt Food",
+		"requiredTech": "Supplies",
+		"requiredResource": "Energy",
+		"food": 1,
+		"uniques": ["[+1 Production] from [Shelter] tiles [in this city]",
+		"Must have an owned [Shelter] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Farm Food]>"]
+	},
+	{
+		"name": "Farm Food",
+		"requiredTech": "Supplies",
+		"requiredResource": "Energy",
+		"food": 1,
+		"uniques": ["[+1 Food] from [Shelter] tiles [in this city]",
+		"Must have an owned [Shelter] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Hunt Food]>"]
+	},
+	{
+		"name": "Trade District",
+		"requiredTech": "Trade",
+		"gold": 1,
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Gold] from [Trade Point] tiles [in this city]",
+		"Must have an owned [Trade Point] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Trading Custom]>"]
+	},
+	{
+		"name": "Trading Custom",
+		"requiredTech": "Trade",
+		"gold": 1,
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture] from [Trade Point] tiles [in this city]",
+		"Must have an owned [Trade Point] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Trade District]>"]
+	},
+	{
+		"name": "Biotech Focus",
+		"science": 1,
+		"requiredTech": "Studies",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Science] from [Laboratory] tiles [in this city]",
+		"Must have an owned [Laboratory] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Cybertech Focus]>"]
+	},
+	{
+		"name": "Cybertech Focus",
+		"science": 1,
+		"requiredTech": "Studies",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Food] from [Laboratory] tiles [in this city]",
+		"Must have an owned [Laboratory] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Cybertech Focus]>"]
+	},
+	{
+		"name": "Build Motivator",
+		"culture": 1,
+		"requiredTech": "Organization",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Production] from [Command Center] tiles [in this city]",
+		"Must have an owned [Command Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Science Motivator]>"]
+		
+	},
+	{
+		"name": "Science Motivator",
+		"culture": 1,
+		"requiredTech": "Organization",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Science] from [Command Center] tiles [in this city]",
+		"Must have an owned [Command Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Build Motivator]>"]
+	},
+	{
+		"name": "Military Training",
+		"production": 1,
+		"requiredTech": "Ranged Trooper",
+		"requiredResource": "Energy",
+		"uniques": ["New [Infantry] units start with [10] Experience [in this city]",
+		"Must have an owned [Military Base] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Production Cadets]>"]
+	},
+	{
+		"name": "Production Cadets",
+		"production": 1,
+		"requiredTech": "Mounted Trooper",
+		"requiredResource": "Energy",
+		"uniques": ["[+50]% Production when constructing [Infantry] units [in this city]",
+		"Must have an owned [Military Base] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Military Training]>"]
+	},
+	//Level 2
+	{
+		"name": "Enhanced Shelters",
+		"food": 1,
+		"requiredTech": "Power Cores",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Food] from [Shelter] tiles [in this city]",
+		"Must have an owned [Shelter] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Productive Extractor",
+		"production": 1,
+		"requiredTech": "Processing",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Production] from [Extractor] tiles [in this city]",
+		"Must have an owned [Extractor] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Smart Extractor]>"]
+	},
+	{
+		"name": "Smart Extractor",
+		"production": 1,
+		"requiredTech": "Processing",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Gold] from [Extractor] tiles [in this city]",
+		"Must have an owned [Extractor] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Productive Extractor]>"]
+	},
+	{
+		"name": "Enhanced Trading",
+		"gold": 2,
+		"requiredTech": "Power Cores",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Gold] from [Trade Point] tiles [in this city]",
+		"Must have an owned [Trade Point] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	
+	{
+		"name": "Processing Enhancer",
+		"science": 1,
+		"requiredTech": "Processing",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Science] from [Laboratory] tiles [in this city]",
+		"Must have an owned [Laboratory] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Extraction Motivator",
+		"culture": 1,
+		"requiredTech": "Processing",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture] from [Command Center] tiles [in this city]",
+		"Must have an owned [Command Center] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Increased Energy",
+		"requiredTech": "Power Cores",
+		"uniques": ["Provides [3] [Energy]",
+		"Must have an owned [Power Core] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Smart Processor]>"]
+	},
+	{
+		"name": "Smart Processor",
+		"requiredTech": "Power Cores",
+		"uniques": ["[+3 Production] [in this city]",
+		"Must have an owned [Power Core] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Increased Energy]>"]
+	},
+	{
+		"name": "Research Outpost",
+		"happiness": 1,
+		"requiredTech": "Outposts",
+		"requiredResource": "Energy",
+		"cityHealth": 10,
+		"uniques": ["[+2 Science] from [Outpost] tiles [in this city]",
+		"Must have an owned [Outpost] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Tactical Outpost]>"]
+	},
+	{
+		"name": "Tactical Outpost",
+		"happiness": 1,
+		"requiredTech": "Outposts",
+        "requiredResource": "Energy",
+		"cityHealth": 10,
+		"uniques": ["[+2 Culture] from [Outpost] tiles [in this city]",
+		"Must have an owned [Outpost] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Research Outpost]>"]
+	},
+	{
+		"name": "Defensive Turrets",
+		"requiredTech": "Defensive Buildings",
+		"requiredResource": "Ore",
+		"cityStrength": 10,
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Defensive Wall]>"]
+	},
+	{
+		"name": "Defensive Wall",
+		"requiredTech": "Defensive Buildings",
+		"requiredResource": "Ore",
+		"cityHealth": 15,
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Defensive Wall]>"]
+	},
+	{
+		"name": "Extended Training",
+		"production": 1,
+		"requiredTech": "Battle Training",
+		"requiredResource": "Energy",
+		"uniques": ["New [Infantry] units start with [20] Experience [in this city]",
+		"Must have an owned [Military Base] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Fast Deployment]>"]
+	},
+	{
+		"name": "Fast Deployment",
+		"production": 1,
+		"requiredTech": "Battle Training",
+		"requiredResource": "Energy",
+		"uniques": ["[+50]% Production when constructing [Infantry] units [in this city]",
+		"Must have an owned [Military Base] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Extended Training]>"]
+	},
+	{
+		"name": "Military School",
+		"production": 1,
+		"requiredTech": "Tacticians",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture, +1 Science] from [War Center] tiles [in this city]",
+		"[+50]% Production when constructing [Tactician] units [in this city]",
+		"[+25]% Production when constructing [Civilian] units [in this city]",
+		"Must have an owned [War Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Info Hub]>"]
+	},
+	{
+		"name": "Info Hub",
+		"production": 1,
+		"requiredTech": "Tacticians",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture, +1 Science] from [War Center] tiles [in this city]",
+		"New [Tactician] units start with [10] Experience [in this city]",
+		"[+25]% Production when constructing [Civilian] units [in this city]",
+		"Must have an owned [War Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Military School]>"]
+	},
+	//Level 3
+	{
+		"name": "Automatic Shelters",
+		"food": 1,
+		"requiredTech": "Advanced Energy",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Food] from [Shelter] tiles [in this city]",
+		"Must have an owned [Shelter] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Automatic Extractor",
+		"production": 1,
+		"requiredTech": "Specialism",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Production] from [Extractor] tiles [in this city]",
+		"Must have an owned [Extractor] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Specialist Facilities",
+		"specialistSlots": {"Supply": 1,"Virtue": 1,"Health": 1},
+		"requiredTech": "Specialism",
+		"requiredResource": "Energy",
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Specialist Factory]>"]
+	},
+	{
+		"name": "Specialist Factory",
+		"specialistSlots": {"Production": 1,"Tech": 1,"Credits": 1},
+		"requiredTech": "Specialism",
+		"requiredResource": "Energy",
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Specialist Facilities]>"]
+	},
+	{
+		"name": "Powered Points",
+		"gold": 2,
+		"requiredTech": "Advanced Energy",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Gold] from [Trade Point] tiles [in this city]",
+		"Must have an owned [Trade Point] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Advanced Laboratory",
+		"requiredTech": "Specialism",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Science] from [Laboratory] tiles [in this city]",
+		"Must have an owned [Laboratory] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Advanced Centers",
+		"culture": 1,
+		"requiredTech": "Specialism",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture] from [Command Center] tiles [in this city]",
+		"Must have an owned [Command Center] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Advanced Outpost",
+		"happiness": 1,
+		"requiredTech": "Advanced Energy",
+        "requiredResource": "Energy",
+		"cityHealth": 10,
+		"uniques": ["[+1 Happiness] from [Outpost] tiles [in this city]",
+		"Must have an owned [Outpost] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Units Factory",
+		"production": 1,
+		"requiredTech": "Factories",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Production] from [Factory] tiles [in this city]",
+        "[+15]% Production when constructing [All] units [in this city]",
+		"Must have an owned [Factory] within [3] tiles",
+		"Provides [1] [Engine]",
+		"Provides [1] [Battery]",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Parts Factory]>"]
+	},
+	{
+		"name": "Parts Factory",
+		"production": 1,
+		"requiredTech": "Factories",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Production] from [Factory] tiles [in this city]",
+        "[+15]% Production when constructing [All] buildings [in this city]",
+		"Must have an owned [Factory] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Provides [1] [Engine]",
+		"Provides [1] [Battery]",
+		"Only available <in cities without a [Units Factory]>"]
+	},
+	{
+		"name": "Fusion Core",
+		"requiredTech": "Advanced Energy",
+		"uniques": ["Provides [4] [Energy]",
+		"Must have an owned [Power Core] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Energized Buildings]>"]
+	},
+	{
+		"name": "Energized Buildings",
+		"requiredTech": "Advanced Energy",
+		"uniques": ["[+3 Production] [in this city]",
+		"Must have an owned [Power Core] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Fusion Core]>"]
+	},
+	{
+		"name": "Force Understanding",
+		"faith": 1,
+		"requiredTech": "Temples",
+		"requiredResource": "Energy",
+		"uniques": ["[+5 Faith] from [Force Temple] tiles [in this city]"	,
+		"Must have an owned [Force Temple] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Force Academy]>"]
+	},
+	{
+		"name": "Force Academy",
+		"faith": 1,
+		"requiredTech": "Temples",
+		"requiredResource": "Energy",
+		"uniques": ["New [Jedi] units start with [15] Experience [in this city]",
+		"Must have an owned [Force Temple] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Force Understanding]>"]
+	},
+	{
+		"name": "Advanced Turrets",
+		"requiredTech": "Advanced Energy",
+		"requiredResource": "Ore",
+		"cityStrength": 12,
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Advanced Walls]>"]
+	},
+	{
+		"name": "Advanced Walls",
+		"requiredTech": "Advanced Energy",
+		"requiredResource": "Ore",
+		"cityHealth": 25,
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Advanced Turrets]>"]
+	},
+	{
+		"name": "Units Shielding",
+		"requiredTech": "Energy Shields",
+		"requiredResource": "Energy",
+		"uniques": ["All newly-trained [All] units [in this city] receive the [Energy Shield] promotion",
+		"Destroyed when the city is captured",
+		"Must have an owned [Shield Generator] within [3] tiles",
+		"Only available <in cities without a [City Shielding]>"]
+		
+		
+	},
+	{
+		"name": "City Shielding",
+		"requiredTech": "Energy Shields",
+		"requiredResource": "Energy",
+		"cityHealth": 50,
+		"uniques": ["Destroyed when the city is captured",
+		"Must have an owned [Shield Generator] within [3] tiles",
+		"Only available <in cities without a [Units Shielding]>"]
+	},
+	{
+		"name": "Veteran Training",
+		"production": 1,
+		"requiredTech": "Advanced Military",
+        "requiredResource": "Energy",
+		"uniques": ["New [Infantry] units start with [30] Experience [in this city]",
+		"Must have an owned [Military Base] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Squadron Deployment]>"]
+	},
+	{
+		"name": "Squadron Deployment",
+		"production": 1,
+		"requiredTech": "Advanced Military",
+		"requiredResource": "Energy",
+		"uniques": ["[+50]% Production when constructing [Infantry] units [in this city]",
+		"Must have an owned [Military Base] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Squadron Deployment]>"]
+	},
+    {
+		"name": "Reinforced Mechs",
+		"production": 1,
+		"requiredTech": "Heavy Assault",
+		"requiredResource": "Energy",
+		"uniques": ["New [Armor] units start with [15] Experience [in this city]",
+		"Must have an owned [Mech Complex] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Replacing Parts]>"]
+	},
+	{
+		"name": "Replacing Parts",
+		"production": 1,
+		"requiredTech": "Heavy Assault",
+		"requiredResource": "Energy",
+		"uniques": ["[+50]% Production when constructing [Armor] units [in this city]",
+		"Must have an owned [Mech Complex] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Reinforced Mechs]>"]
+	},
+	{
+		"name": "Tactics Center",
+		"production": 1,
+		"requiredTech": "Advanced Military",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture, +1 Science] from [War Center] tiles [in this city]",
+		"[+50]% Production when constructing [Tactician] units [in this city]",
+		"[+25]% Production when constructing [Civilian] units [in this city]",
+		"Must have an owned [War Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Secret Network]>"]
+	},
+	{
+		"name": "Secret Network",
+		"production": 1,
+		"requiredTech": "Advanced Military",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture, +1 Science] from [War Center] tiles [in this city]",
+		"New [Tactician] units start with [20] Experience [in this city]",
+		"[+25]% Production when constructing [Civilian] units [in this city]",
+		"Must have an owned [War Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Secret Network]>"]
+	},
+	{
+		"name": "Flight School",
+		"production": 1,
+		"requiredTech": "Spaceports",
+		"requiredResource": "Energy",
+		"uniques": ["New [Air] units start with [15] Experience [in this city]",
+		"Must have an owned [Spaceport] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Manufacture Upgrades]>"]
+	},
+	{
+		"name": "Manufacture Upgrades",
+		"production": 1,
+		"requiredTech": "Spaceports",
+		"requiredResource": "Energy",
+		"uniques": ["[+50]% Production when constructing [Air] units [in this city]",
+		"Must have an owned [Spaceport] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Flight School]>"]
+	},
+	//Level 4
+	{
+		"name": "Advanced Shelters",
+		"food": 1,
+		"requiredTech": "Fortress",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Food] from [Shelter] tiles [in this city]",
+		"Must have an owned [Shelter] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Fusion Extractor",
+		"production": 1,
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Production] from [Extractor] tiles [in this city]",
+		"Must have an owned [Extractor] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Heavy Extractor]>"]
+	},
+	{
+		"name": "Heavy Extractor",
+		"production": 1,
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Gold] from [Extractor] tiles [in this city]",
+		"Must have an owned [Extractor] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Fusion Extractor]>"]
+	},
+	{
+		"name": "Economy District",
+		"gold": 2,
+		"requiredTech": "Fortress",
+		"requiredResource": "Energy",
+		"uniques": ["[+4 Gold] from [Trade Point] tiles [in this city]",
+		"Must have an owned [Trade Point] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Trading Board]>"]
+	},
+	{
+		"name": "Trading Board",
+		"gold": 2,
+		"requiredTech": "Fortress",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Culture] from [Trade Point] tiles [in this city]",
+		"Must have an owned [Trade Point] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Economy District]>"]
+	},
+	{
+		"name": "Optimized Biotech",
+		"science": 1,
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Food] from [Laboratory] tiles [in this city]",
+		"Must have an owned [Laboratory] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Optimized Cybertech]>"]
+	},
+	{
+		"name": "Optimized Cybertech",
+		"science": 1,
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Science] from [Laboratory] tiles [in this city]",
+		"Must have an owned [Laboratory] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Optimized Biotech]>"]
+	},
+	{
+		"name": "Optimized Builds",
+		"culture": 1,
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Production] from [Command Center] tiles [in this city]",
+		"Must have an owned [Command Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Optimized Science]>"]
+	},
+	{
+		"name": "Optimized Science",
+		"culture": 1,
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Science] from [Command Center] tiles [in this city]",
+		"Must have an owned [Command Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Optimized Builds]>"]
+	},
+	{
+		"name": "Units Industry",
+		"production": 1,
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Production] from [Factory] tiles [in this city]",
+        "[+15]% Production when constructing [All] units [in this city]",
+		"Must have an owned [Factory] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Provides [1] [Engine]",
+		"Provides [1] [Battery]",
+		"Only available <in cities without a [Parts Industry]>"]
+	},
+	{
+		"name": "Parts Industry",
+		"production": 1,
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Production] from [Factory] tiles [in this city]",
+        "[+15]% Production when constructing [All] buildings [in this city]",
+		"Must have an owned [Factory] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Provides [1] [Engine]",
+		"Provides [1] [Battery]",
+		"Only available <in cities without a [Units Industry]>"]
+	},
+	{
+		"name": "Frequency Scanner",
+		"culture": 1,
+		"requiredTech": "Scanning",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Culture] from [Radar Dish] tiles [in this city]",
+		"[-50]% Unhappiness from [Specialists] [in this city]",
+		"Must have an owned [Radar Dish] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Operative Scanner]>",
+		"Only available <in cities without a [Satellite Reveal]>"]
+		
+	},
+	{
+		"name": "Operative Scanner",
+		"culture": 1,
+		"requiredTech": "Scanning",
+		"requiredResource": "Energy",
+		"uniques": ["[+2 Culture] from [Radar Dish] tiles [in this city]",
+		"[-50]% Food consumption by specialists [in this city]",
+		"Must have an owned [Radar Dish] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Frequency Scanner]>",
+		"Only available <in cities without a [Satellite Reveal]>"]
+	},
+	{
+		"name": "Satellite Reveal",
+		"cost": 160,
+		"isNationalWonder": true,
+		"requiredTech": "Scanning",
+		"uniques": ["Reveals the entire map",
+		"Must have an owned [Radar Dish] within [3] tiles",
+		"Only available <in cities without a [Operative Scanner]>",
+		"Only available <in cities without a [Frequency Scanner]>"]
+	},
+	{
+		"name": "Optimized Outpost",
+		"happiness": 1,
+		"requiredTech": "Fortress",
+        "requiredResource": "Energy",
+		"cityHealth": 10,
+		"uniques": ["[+1 Happiness] from [Outpost] tiles [in this city]",
+		"Must have an owned [Outpost] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Efficient Energy",
+		"requiredTech": "Fortress",
+		"uniques": ["Provides [5] [Energy]",
+		"Must have an owned [Power Core] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Powered Assembly]>"]
+	},
+	{
+		"name": "Powered Assembly",
+		"requiredTech": "Fortress",
+		"uniques": ["[+3 Production] [in this city]",
+		"Must have an owned [Power Core] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Fusion Core]>"]
+	},
+	{
+		"name": "Force Institution",
+		"faith": 1,
+		"requiredTech": "The Force",
+		"requiredResource": "Energy",
+		"uniques": ["[+5 Faith] from [Force Temple] tiles [in this city]",
+		"Must have an owned [Force Temple] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Force Training]>"]
+	},
+	{
+		"name": "Force Training",
+		"faith": 1,
+		"requiredTech": "The Force",
+		"requiredResource": "Energy",
+		"uniques": ["New [Jedi] units start with [20] Experience [in this city]",
+		"Must have an owned [Force Temple] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Force Institution]>"]
+	},
+	{
+		"name": "Heavy Turrets",
+		"requiredTech": "Superconductors",
+		"requiredResource": "Ore",
+		"cityStrength": 14,
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Heavy Wall]>"]
+	},
+	{
+		"name": "Heavy Wall",
+		"requiredTech": "Superconductors",
+		"requiredResource": "Ore",
+		"cityHealth": 28,
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Heavy Turrets]>"]
+	},
+	{
+		"name": "Shield Enhancing",
+		"requiredTech": "Superconductors",
+		"requiredResource": "Energy",
+		"cityHealth": 50,
+		"uniques": ["Destroyed when the city is captured",
+		"Must have an owned [Shield Generator] within [3] tiles",
+		"Only available <in cities without a [Self-Powering Shield]>"]
+	},
+	{
+		"name": "Self-Powering Shield",
+		"requiredTech": "Superconductors",
+		"cityHealth": 15,
+		"uniques": ["Provides [3] [Energy]","Destroyed when the city is captured",
+		"Must have an owned [Shield Generator] within [3] tiles",
+		"Only available <in cities without a [Self-Powering Shield]>"]
+	},
+	{
+		"name": "Special Base",
+		"production": 1,
+		"requiredTech": "Repeaters",
+	    "requiredResource": "Energy",
+		"uniques": ["New [Infantry] units start with [10] Experience [in this city]",
+		"[+2 Production] from [Military Base] tiles [in this city]",
+		"Must have an owned [Military Base] within [3] tiles",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Advanced Mechs",
+		"production": 1,
+		"requiredTech": "Repeaters",
+		"requiredResource": "Energy",
+		"uniques": ["New [Armor] units start with [25] Experience [in this city]",
+		"Must have an owned [Mech Complex] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Advanced Parts]>"]
+	},
+	{
+		"name": "Advanced Parts",
+		"production": 1,
+		"requiredTech": "Repeaters",
+		"requiredResource": "Energy",
+		"uniques": ["[+50]% Production when constructing [Armor] units [in this city]",
+		"Must have an owned [Mech Complex] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Advanced Mechs]>"]
+	},
+	{
+		"name": "Warfare Theory",
+		"production": 1,
+		"requiredTech": "Repeaters",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture, +1 Science] from [War Center] tiles [in this city]",
+		"[+50]% Production when constructing [Tactician] units [in this city]",
+		"[+25]% Production when constructing [Civilian] units [in this city]",
+		"Must have an owned [War Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Network Station]>"]
+	},
+	{
+		"name": "Network Station",
+		"production": 1,
+		"requiredTech": "Repeaters",
+		"requiredResource": "Energy",
+		"uniques": ["[+1 Culture, +1 Science] from [War Center] tiles [in this city]",
+		"New [Tactician] units start with [30] Experience [in this city]",
+		"[+25]% Production when constructing [Civilian] units [in this city]",
+		"Must have an owned [War Center] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Warfare Theory]>"]
+	},
+	{
+		"name": "Advanced Ships",
+		"production": 1,
+		"requiredTech": "Repeaters",
+		"requiredResource": "Energy",
+		"uniques": ["New [Air] units start with [20] Experience [in this city]",
+		"Must have an owned [Spaceport] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Shipyard Station]>",
+		"Only available <in cities without a [Fleet Manufactory]>",
+		"Only available <in cities without a [Orbital Scanner]>"]
+	},
+	{
+		"name": "Shipyard Station",
+		"production": 1,
+		"requiredTech": "Repeaters",
+		"requiredResource": "Energy",
+		"uniques": ["[+50]% Production when constructing [Air] units [in this city]",
+		"Must have an owned [Spaceport] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Advanced Ships]>",
+		"Only available <in cities without a [Fleet Manufactory]>",
+		"Only available <in cities without a [Orbital Scanner]>"]
+	},
+	{
+		"name": "Fleet Manufactory",
+		"health": 1,
+		"culture": 1,
+		"requiredTech": "Repeaters",
+		"requiredResource": "Energy",
+		"uniques": ["[+100]% Production when constructing [Starship] units [in this city]",
+		"Must have an owned [Radar Dish] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Provides [1] [Reactor]",
+		"Only available <in cities without a [Operative Scanner]>",
+		"Only available <in cities without a [Frequency Scanner]>",
+		"Only available <in cities without a [Orbital Scanner]>"]
+	},
+	{
+		"name": "Orbital Scanner",
+		"health": 1,
+		"culture": 1,
+		"requiredTech": "Repeaters",
+		"requiredResource": "Energy",
+		"uniques": ["[+100]% Production when constructing [Orbital Strike] units [in this city]",
+		"Must have an owned [Radar Dish] within [3] tiles",
+		"Destroyed when the city is captured",
+		"Provides [1] [Reactor]",
+		"Only available <in cities without a [Frequency Scanner]>",
+		"Only available <in cities without a [Operative Scanner]>",
+		"Only available <in cities without a [Fleet Manufactory]>"]
+	},
+	{
+		"name": "Intergalactic Route",
+		"requiredTech": "Galactic Trade",
+		"requiredResource": "Energy",
+		"uniques": ["[-20]% growth [in this city]",
+		"[+4 Production, +4 Science, +4 Gold, +2 Culture] [in this city]",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Intergalactic Trade]>"]
+	},
+	{
+		"name": "Intergalactic Trade",
+		"requiredTech": "Galactic Trade",
+		"requiredResource": "Energy",
+		"uniques": ["[-20]% growth [in this city]",
+		"[+2 Production, +2 Science, +8 Gold, +4 Culture] [in this city]",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Intergalactic Route]>"]
+	},
+	{
+		"name": "Specialist Center",
+		"specialistSlots": {"Supply": 1,"Virtue": 1,"Health": 1},
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Specialist Industry]>"]
+	},
+	{
+		"name": "Specialist Industry",
+		"specialistSlots": {"Production": 1,"Tech": 1,"Credits": 1},
+		"requiredTech": "Optimization",
+		"requiredResource": "Energy",
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Specialist Center]>"]
+	},
+	{
+		"name": "Virtue Plan",
+		"requiredTech": "Planned Development",
+		"requiredResource": "Energy",
+		"uniques": ["[+5 Culture] [in this city]",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Health Plan]>",
+		"Only available <in cities without a [Tech Plan]>",
+		"Only available <in cities without a [Credits Plan]>",
+		"Only available <in cities without a [Will Plan]>"]
+	},
+	{
+		"name": "Health Plan",
+		"requiredTech": "Planned Development",
+		"requiredResource": "Energy",
+		"uniques": ["[+3 Happiness] [in this city]",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Virtue Plan]>",
+		"Only available <in cities without a [Tech Plan]>",
+		"Only available <in cities without a [Credits Plan]>",
+		"Only available <in cities without a [Will Plan]>"]
+	},
+	{
+		"name": "Tech Plan",
+		"requiredTech": "Planned Development",
+		"requiredResource": "Energy",
+		"uniques": ["[+5 Science] [in this city]",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Virtue Plan]>",
+		"Only available <in cities without a [Health Plan]>",
+		"Only available <in cities without a [Credits Plan]>",
+		"Only available <in cities without a [Will Plan]>"]
+	},
+	{
+		"name": "Credits Plan",
+		"requiredTech": "Planned Development",
+		"requiredResource": "Energy",
+		"uniques": ["[+10 Gold] [in this city]",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Virtue Plan]>",
+		"Only available <in cities without a [Tech Plan]>",
+		"Only available <in cities without a [Health Plan]>",
+		"Only available <in cities without a [Will Plan]>"]
+	},
+	{
+		"name": "Will Plan",
+		"requiredTech": "Planned Development",
+		"requiredResource": "Energy",
+		"uniques": ["[+10 Faith] [in this city]",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Virtue Plan]>",
+		"Only available <in cities without a [Tech Plan]>",
+		"Only available <in cities without a [Health Plan]>",
+		"Only available <in cities without a [Credits Plan]>"]
+	},
+	/*
+	{
+		"name": "Inventor",
+		"isNationalWonder": true,
+		"cost": 600,
+		"requiredTech": "Heroes",
+		"uniques": ["Free [Inventor] appears","Unbuildable","Will not be displayed in Civilopedia"]
+	},*/
+	{
+		"name": "Altar of Heroes",
+		"cost": 600,
+		"isNationalWonder": true,
+		"requiredTech": "Heroes",
+		"uniques": ["Free [Hero] appears"]
+	},
+	//Victory Related
+	{
+		"name": "Monument",
+		"isNationalWonder": true,
+		"cost": 2400,
+		"uniques": ["Hidden until [4] social policy branches have been completed","Triggers a global alert upon build start","Hidden when [Cultural] Victory is disabled"]
+	},
+	{
+		"name": "Supercollider Blueprints",
+		"isNationalWonder": true,
+		"cost": 1200,
+		"requiredTech": "Heroes",
+		"uniques": ["Enables Construction of Supercollider","Triggers a global alert upon completion","Hidden when [Scientific] Victory is disabled"]
+	},
+	{
+        "name": "Supercollider Generator",
+		"isNationalWonder": true,
+		"cost": 600,
+        "uniques": ["Only available <if [Supercollider Blueprints] is constructed>",
+		"Triggers a global alert upon completion",
+		"Hidden when [Scientific] Victory is disabled"]
+    },
+	{
+        "name": "Supercollider Structure",
+		"isNationalWonder": true,
+		"cost": 600,
+        "uniques": ["Only available <if [Supercollider Blueprints] is constructed>",
+		"Triggers a global alert upon completion",
+		"Hidden when [Scientific] Victory is disabled"]
+    },
+	{
+        "name": "Supercollider Core",
+		"isNationalWonder": true,
+		"cost": 600,
+        "uniques": ["Only available <if [Supercollider Blueprints] is constructed>",
+		"Triggers a global alert upon completion",
+		"Hidden when [Scientific] Victory is disabled"]
+    },
+	{
+        "name": "The Supercollider",
+		"isNationalWonder": true,
+		"cost": 2400,
+        "uniques": ["Only available <if [Supercollider Generator] is constructed>",
+		"Only available <if [Supercollider Structure] is constructed>",
+		"Only available <if [Supercollider Core] is constructed>",
+		"Hidden when [Scientific] Victory is disabled"]
+    }
+]

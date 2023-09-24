@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Recon",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Battler",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Ranged Battler",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Mounted",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Jedi",
+        "movementType": "Land",
+		"Uniques": ["Force","Unable to capture cities"]
+    },
+	{
+        "name": "Siege",
+        "movementType": "Land",
+		"Uniques": ["Armor","Ranged attacks may be performed over obstacles"]
+    },
+	{
+        "name": "Tactician",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+    {
+        "name": "Mech",
+        "movementType": "Land",
+		"Uniques": ["Armor"]
+    },
+	{
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+	{
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+	{
+        "name": "Interceptor",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+	{
+        "name": "Starship",
+        "movementType": "Land",
+        "uniques": ["Special","Ignores terrain cost","Can pass through impassable tiles","May travel on Water tiles without embarking"]
+    },
+	{
+        "name": "Orbital Strike",
+        "movementType": "Air",
+        "uniques": ["Special","Self-destructs when attacking","Cannot be intercepted"]
+    }
+]
