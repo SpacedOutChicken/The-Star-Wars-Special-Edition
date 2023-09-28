@@ -2,7 +2,7 @@
     {
         "name": "Survivalist",
         "era": "Level 1",
-        "uniques": ["Free [Worker] appears","[+1 Food] from every [Shelter]"],
+        "uniques": ["Free [Droid] appears","[+1 Food] from every [Shelter]"],
 		"priorities": {
             "Neutral": 70,
             "Cultural": 30,
@@ -19,7 +19,7 @@
             },
             {
                 "name": "Quick Founding",
-                "uniques": ["[+50]% Production when constructing [Settler] units [in all cities]","Free [Settler] appears"],
+                "uniques": ["[+50]% Production when constructing [Founder] units [in all cities]","Free [Founder] appears"],
                 "row": 1,
                 "column": 5
             },	
@@ -33,14 +33,14 @@
 			{
                 "name": "Planned Supplies",
 				"requires": ["Quick Founding"],
-                "uniques": ["Free [Expansion Builder] appears","[+2 Food] from every [Command Center]"],
+                "uniques": ["[+2 Food] from every [Command Center]"],
                 "row": 2,
                 "column": 4
             },
 			{
                 "name": "Armed Survivalists",
 				"requires": ["Reserve Stockpile","Planned Supplies"],
-                "uniques": ["Free [Military Builder] appears","[+2 Food] from every [Military Base]"],
+                "uniques": ["[+2 Food] from every [Military Base]"],
                 "row": 3,
                 "column": 3
             },
@@ -55,7 +55,7 @@
 	{
         "name": "Trader",
         "era": "Level 1",
-        "uniques": ["Free [Worker] appears","[+2 Gold] from every [Trade Point]"],
+        "uniques": ["[+2 Gold] from every [Trade Point]"],
 		"priorities": {
             "Neutral": 20,
             "Cultural": 10,
@@ -72,7 +72,7 @@
             },
             {
                 "name": "Trade Tracing",
-                "uniques": ["Free [Expansion Builder] appears","[+2 Gold] from all [Gold] buildings"],
+                "uniques": ["[+2 Gold] from all [Gold] buildings"],
                 "row": 1,
                 "column": 5
             },	
@@ -86,14 +86,14 @@
 			{
                 "name": "Private Routes",
 				"requires": ["Trade Tracing"],
-                "uniques": ["[+10]% [Gold] from Trade Routes","Free [Worker] appears"],
+                "uniques": ["[+10]% [Gold] from Trade Routes","Free [Droid] appears"],
                 "row": 2,
                 "column": 4
             },
 			{
                 "name": "Deal Closing",
 				"requires": ["Trade Studies","Private Routes"],
-                "uniques": ["Free [Research Builder] appears","[+50]% [Gold] [in capital]"],
+                "uniques": ["[+50]% [Gold] [in capital]"],
                 "row": 3,
                 "column": 3
             },
@@ -106,7 +106,7 @@
 	{
         "name": "Researchers",
         "era": "Level 1",
-        "uniques": ["Free [Worker] appears","[+1 Production] from every [Extractor]"],
+        "uniques": ["[-25]% tile improvement construction time","[+1 Production] from every [Extractor]"],
 		"priorities": {
             "Neutral": 30,
             "Cultural": 10,
@@ -123,7 +123,7 @@
             },
             {
                 "name": "Processing Advances",
-                "uniques": ["Free [Research Builder] appears","[+2 Science] from [Extractor] tiles [in all cities]"],
+                "uniques": ["[+2 Science] from [Extractor] tiles [in all cities]"],
                 "row": 1,
                 "column": 5
             },	
@@ -137,14 +137,14 @@
 			{
                 "name": "Funded Research",
 				"requires": ["Processing Advances"],
-                "uniques": ["[+20]% [Science]","Free [Worker] appears"],
+                "uniques": ["[+20]% [Science]","Free [Droid] appears"],
                 "row": 2,
                 "column": 4
             },
 			{
                 "name": "Advanced Expansion",
 				"requires": ["Bio-Research","Funded Research"],
-                "uniques": ["Free [Settler] appears","[+1 Culture, +2 Science] [in all cities]"],
+                "uniques": ["Free [Founder] appears","[+1 Culture, +2 Science] [in all cities]"],
                 "row": 3,
                 "column": 3
             },
@@ -157,7 +157,7 @@
 	{
         "name": "Adepts",
         "era": "Level 1",
-        "uniques": ["Free [Worker] appears","Provides a [Free Nova] in your first [1] cities for free"],
+        "uniques": ["Provides [2] [Nova]"],
 		"priorities": {
             "Neutral": 30,
             "Cultural": 70,
@@ -169,7 +169,7 @@
         "policies": [
             {
                 "name": "Wonder Find",
-                "uniques": ["Free [Settler] appears","[+2 Happiness, +2 Food] from [Holocron] tiles [in all cities]","[+2 Happiness, +2 Food] from [Crystals] tiles [in all cities]"],
+                "uniques": ["Free [Founder] appears","[+2 Happiness, +2 Food] from [Holocron] tiles [in all cities]","[+2 Happiness, +2 Food] from [Kyber] tiles [in all cities]"],
                 "row": 1,
                 "column": 1
             },
@@ -182,21 +182,21 @@
 			{
                 "name": "Senses Meditation",
 				"requires": ["Wonder Find"],
-                "uniques": ["Free [Expansion Builder] appears","[+1 Food, +3 Faith] from [Outpost] tiles [in all cities]"],
+                "uniques": ["[+1 Food, +3 Faith] from [Outpost] tiles [in all cities]"],
                 "row": 2,
                 "column": 2
             },
 			{
                 "name": "Academics",
 				"requires": ["Force Sustain"],
-                "uniques": ["[+3 Science] from [Holocron] tiles [in all cities]","[+3 Culture] from [Crystals] tiles [in all cities]","[+1 Science] from [Nova] tiles [in all cities]","[+3 Culture] from all [Faith] buildings"],
+                "uniques": ["[+3 Science] from [Holocron] tiles [in all cities]","[+3 Culture] from [Kyber] tiles [in all cities]","[+1 Science] from [Nova] tiles [in all cities]","[+3 Culture] from all [Faith] buildings"],
                 "row": 2,
                 "column": 4
             },
 			{
                 "name": "Force Strength",
 				"requires": ["Senses Meditation","Academics"],
-                "uniques": ["[Jedi] units gain the [Force Strength] promotion","Free [Worker] appears"],
+                "uniques": ["[Jedi] units gain the [Force Strength] promotion"],
                 "row": 3,
                 "column": 3
             },
@@ -222,7 +222,7 @@
         "policies": [
             {
                 "name": "Battle Reserves",
-                "uniques": ["Free [Worker] appears","Free [Military Builder] appears"],
+                "uniques": ["Free [Droid] appears","Free [Strategist] appears"],
                 "row": 1,
                 "column": 1
             },
@@ -242,14 +242,14 @@
 			{
                 "name": "Military Economy",
 				"requires": ["Battle Reserves"],
-                "uniques": ["Free [Expansion Builder] appears","[Gold] cost of purchasing [All] units [-30]%"],
+                "uniques": ["[Gold] cost of purchasing [All] units [-30]%"],
                 "row": 2,
                 "column": 4
             },
 			{
                 "name": "Army Upgrading",
 				"requires": ["Terrain Assault","Military Economy"],
-                "uniques": ["Free [Military Builder] appears","[+2 Culture] from [War Center] tiles [in all cities]","[-50]% Gold cost of upgrading <for [Military] units>"],
+                "uniques": ["[+2 Culture] from [War Center] tiles [in all cities]","[-50]% Gold cost of upgrading <for [Military] units>"],
                 "row": 3,
                 "column": 3
             },
@@ -295,14 +295,14 @@
 			{
                 "name": "Applied Discoveries",
 				"requires": ["Snipers"],
-                "uniques": ["Free [Worker] appears","[+1 Production] from [Luxury resource] tiles [in all cities]"],
+                "uniques": ["[+1 Production] from [Luxury resource] tiles [in all cities]"],
                 "row": 2,
                 "column": 4
             },
 			{
                 "name": "Prime Terrain",
 				"requires": ["Terrain Tactics","Applied Discoveries"],
-                "uniques": ["Free [Settler] appears","[+1] population [in all cities]","[+1 Culture] [in all cities]"],
+                "uniques": ["Free [Founder] appears","[+1] population [in all cities]","[+1 Culture] [in all cities]"],
                 "row": 3,
                 "column": 3
             },
@@ -328,7 +328,7 @@
         "policies": [
             {
                 "name": "Animal Cloning",
-                "uniques": ["Free [Worker] appears","[+2 Food] from [Bonus resource] tiles [in all cities]"],
+                "uniques": ["Free [Droid] appears","[+2 Food] from [Bonus resource] tiles [in all cities]"],
                 "row": 1,
                 "column": 1
             },
@@ -341,7 +341,7 @@
 			{
                 "name": "Veteran Survivors",
 				"requires": ["Animal Cloning"],
-                "uniques": ["Free [Military Builder] appears","[+30]% Strength <for [All] units> <when defending> <when fighting in [Friendly Land] tiles>"],
+                "uniques": ["[+30]% Strength <for [All] units> <when defending> <when fighting in [Friendly Land] tiles>"],
                 "row": 2,
                 "column": 2
             },
@@ -355,7 +355,7 @@
 			{
                 "name": "Bacta Tanks",
 				"requires": ["Veteran Survivors","Controlled Fauna"],
-                "uniques": ["Free [Research Builder] appears","[Military] units gain the [Bacta Tanks] promotion"],
+                "uniques": ["[Military] units gain the [Bacta Tanks] promotion"],
                 "row": 3,
                 "column": 3
             },	
@@ -387,7 +387,7 @@
             },
             {
                 "name": "Banking Network",
-                "uniques": ["Free [Expansion Builder] appears","[+1 Happiness, +1 Culture] from each Trade Route"],
+                "uniques": ["[+1 Happiness, +1 Culture] from each Trade Route"],
                 "row": 1,
                 "column": 5
             },	
@@ -408,7 +408,7 @@
 			{
                 "name": "Automated Network",
 				"requires": ["Prime Producers","Trade Communications"],
-                "uniques": ["Free [Expansion Builder] appears","[+50]% Production when constructing [Civilian] units [in all cities]"],
+                "uniques": ["[+50]% Production when constructing [Civilian] units [in all cities]"],
                 "row": 3,
                 "column": 3
             },	
@@ -435,7 +435,7 @@
             {
                 "name": "Clean Energy",
                 "uniques": [
-                    "Free [Expansion Builder] appears","Provides a [Free Energy] in your first [5] cities for free"],
+                    "Provides a [Reactor Core] in your first [5] cities for free"],
                 "row": 1,
                 "column": 1
             },
@@ -448,7 +448,7 @@
 			{
                 "name": "Artificial Intelligence",
 				"requires": ["Clean Energy"],
-                "uniques": ["Free [Worker] appears","[+1 Production] from all [Science] buildings"],
+                "uniques": ["[+1 Production] from all [Science] buildings"],
                 "row": 2,
                 "column": 2
             },
@@ -462,7 +462,7 @@
 			{
                 "name": "Breakthrough",
 				"requires": ["Artificial Intelligence","Intergalactic Research"],
-                "uniques": ["[+25]% [Science]","Free [Research Builder] appears"],
+                "uniques": ["[+25]% [Science]"],
                 "row": 3,
                 "column": 3
             },
@@ -494,7 +494,7 @@
             },
             {
                 "name": "Mystery Understanding",
-                "uniques": ["Free [Research Builder] appears","[+2 Science, +1 Culture] from all [Faith] buildings"],
+                "uniques": ["[+2 Science, +1 Culture] from all [Faith] buildings"],
                 "row": 1,
                 "column": 5
             },
@@ -598,14 +598,14 @@
             },
             {
                 "name": "Smuggling Operation",
-                "uniques": ["Free [Expansion Builder] appears","[+1 Happiness, +2 Gold] from each Trade Route"],
+                "uniques": ["[+1 Happiness, +2 Gold] from each Trade Route"],
                 "row": 1,
                 "column": 5
             },
 			{
                 "name": "Trade Association",
 				"requires": ["Highest Bounty"],
-                "uniques": ["Free [Worker] appears","[+2 Culture] from all [Gold] buildings"],
+                "uniques": ["[+2 Culture] from all [Gold] buildings"],
                 "row": 2,
                 "column": 2
             },
@@ -619,7 +619,7 @@
 			{
                 "name": "Industry Spies",
 				"requires": ["Trade Association","Intergalactic Reputation"],
-                "uniques": ["Free [Research Builder] appears","[+2 Culture] from all [Science] buildings","[+2 Culture] from all [Food] buildings"],
+                "uniques": ["[+2 Culture] from all [Science] buildings","[+2 Culture] from all [Food] buildings"],
                 "row": 3,
                 "column": 3
             },

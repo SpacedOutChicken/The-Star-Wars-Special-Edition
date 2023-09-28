@@ -200,7 +200,7 @@
 		]
 	},
 	{
-		"name": "Marsh",
+		"name": "Swamp",
 		"type": "TerrainFeature",
 		"movementCost": 3,
 		"unbuildable": true,
@@ -218,7 +218,7 @@
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Swamp","Oasis"],
 		"defenceBonus": -0.15
 	},
 	{
@@ -253,6 +253,48 @@
 		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
 					"[-1] to Fertility for Map Generation",
 					"Considered [Undesirable] when determining start locations"]
-	}
+	},
+
 	// Natural Wonders
+	{
+		"name": "Megalith",
+		"type": "NaturalWonder",
+		"faith": 5,
+		"overrideStats": true,
+		"occursOn": ["Plains","Grassland","Tundra"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [1] to [6] [Hill] tiles"],
+		"weight": 10
+	},
+	{
+		"name": "Great Pit of Carkoon",
+		"type": "NaturalWonder",
+		"science": 5,
+		"occursOn": ["Desert"],
+		"uniques": ["Must be adjacent to [1] to [6] [Desert] tiles"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{
+				"text": "Home of the almighty Sarlacc, a huge predator that digests its prey over a period of a thousand years."
+			}
+		]
+	},
+	{
+		"name": "Cave of Evil",
+		"type": "NaturalWonder",
+		"faith": 3,
+		"culture": 2,
+		"occursOn": ["Grassland"],
+		"uniques": ["Must be adjacent to [1] to [6] [Grassland] tiles",
+		"Neighboring tiles will convert to [Grassland]"],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
 ]

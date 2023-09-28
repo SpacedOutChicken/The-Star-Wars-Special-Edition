@@ -1,45 +1,109 @@
 [
     {
-        "name": "Cultured",
+        "name": "Virtuous",
         "friendBonusUniques": [
-            "[+1 Culture"
+            "[+3 Culture] <before the [Level 2]>",
+            "[+6 Culture] <starting from the [Level 2]> <before the [Level 4]>",
+            "[+13 Culture] <starting from the [Level 4]>"
         ],
         "allyBonusUniques": [
-            "[+2 Culture]"
+            "[+6 Culture] <before the [Level 2]>",
+            "[+12 Culture] <starting from the [Level 2]> <before the [Level 4]>",
+            "[+26 Culture] <starting from the [Level 4]>",
+			"[-5]% Culture cost of adopting new Policies"
         ],
         "color": [139, 96, 255]
     },
     {
-        "name": "Maritime",
-        "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "name": "Logistical",
+        "friendBonusUniques": [
+			"[+2 Food] [in capital] <before the [Level 2]>",
+			"[+3 Food] [in capital] <starting from the [Level 2]> <before the [Level 4]>",
+			"[+4 Food] [in capital] <starting from the [Level 4]>"
+		],
+        "allyBonusUniques": [
+			"[+2 Food] [in capital] <before the [Level 2]>",
+			"[+3 Food] [in capital] <starting from the [Level 2]> <before the [Level 4]>",
+			"[+4 Food] [in capital] <starting from the [Level 4]>", 
+			"[+1 Food] [in all cities] <before the [Level 2]>",
+			"[+2 Food] [in all cities] <starting from the [Level 2]> <before the [Level 4]>",
+			"[+3 Food] [in all cities] <starting from the [Level 4]>"
+		],
         "color": [56, 255, 112]
     },
     {
-        "name": "Mercantile",
+        "name": "Economic",
         "friendBonusUniques": [
-            "[+2 Happiness]"
+            "[+2 Happiness] <before the [Level 2]>",
+            "[+3 Happiness] <starting from the [Level 2]>"
         ],
         "allyBonusUniques": [
-            "[+2 Happiness]",
-            "Provides a unique luxury"
+            "[+2 Happiness] <before the [Level 2]>",
+            "[+3 Happiness] <starting from the [Level 2]>",
+            "Provides a unique luxury",
+			"[Gold] cost of purchasing items in cities [-5]%"
         ],
         "color": [255, 216, 0]
     },
     {
         "name": "Militaristic",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[19] turns"],
+        "friendBonusUniques": [
+			"Provides military units every ≈[20] turns",
+			"[+1]% Strength <for [Military] units> <before the [Level 2]>",
+			"[+2]% Strength <for [Military] units> <starting from the [Level 2]> <before the [Level 4]>",
+			"[+5]% Strength <for [Military] units> <starting from the [Level 4]>"
+		],
+        "allyBonusUniques": [
+			"Provides military units every ≈[17] turns",
+			"[+2]% Strength <for [Military] units> <before the [Level 2]>",
+			"[+5]% Strength <for [Military] units> <starting from the [Level 2]> <before the [Level 4]>",
+			"[+10]% Strength <for [Military] units> <starting from the [Level 4]>"
+		],
         "color": [255, 0, 0]
     },
     {
-        "name": "Religious",
+        "name": "Attuned",
         "friendBonusUniques":  [
-            "[+1 Faith]"
+            "[+3 Faith] <before the [Level 2]>",
+            "[+6 Faith] <starting from the [Level 2]> <before the [Level 4]>",
+            "[+13 Faith] <starting from the [Level 4]>"
         ],
         "allyBonusUniques":  [
-            "[+2 Faith]"
+            "[+6 Faith] <before the [Level 2]>",
+            "[+12 Faith] <starting from the [Level 2]> <before the [Level 4]>",
+            "[+26 Faith] <starting from the [Level 4]>",
+			"[Faith] cost of purchasing items in cities [-5]%"
         ],
         "color": [255, 255, 255]
+    },
+	{
+        "name": "Scientific",
+        "friendBonusUniques":  [
+            "[+3 Science] <before the [Level 2]>",
+            "[+6 Science] <starting from the [Level 2]> <before the [Level 4]>",
+            "[+13 Science] <starting from the [Level 4]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Science] <before the [Level 2]>",
+            "[+12 Science] <starting from the [Level 2]> <before the [Level 4]>",
+            "[+26 Science] <starting from the [Level 4]>",
+			"[+1 Science] from every [Tech]"
+        ],
+        "color": [55, 55, 255]
+    },
+	{
+        "name": "Industrial",
+        "friendBonusUniques":  [
+            "[+3 Production] [in all cities] <before the [Level 2]>",
+            "[+6 Production] [in all cities] <starting from the [Level 2]> <before the [Level 4]>",
+            "[+13 Production] [in all cities] <starting from the [Level 4]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Production] [in all cities] <before the [Level 2]>",
+            "[+12 Production] [in all cities] <starting from the [Level 2]> <before the [Level 4]>",
+            "[+26 Production] [in all cities] <starting from the [Level 4]>",
+			"[+5]% Production when constructing [All] buildings [in all cities]"
+        ],
+        "color": [220, 100, 15]
     }
 ]

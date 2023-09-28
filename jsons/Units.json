@@ -1,32 +1,15 @@
 [  
-   //AI Exclusive
-   {
-		"name": "Luxury Worker",
-		"unitType": "Civilian",
-		"cost": 48,
-		"obsoleteTech" : "Power Cores",
-		"uniques": ["Can instantly construct a [Trade Point] improvement <by consuming this unit>","Unbuildable","Uncapturable","Will not be displayed in Civilopedia"],
-		"movement": 2
-		
-	},
-	{
-		"name": "Strategic Worker",
-		"unitType": "Civilian",
-		"cost": 48,
-		"obsoleteTech" : "Power Cores",
-		"uniques": ["Can instantly construct a [Extractor] improvement <by consuming this unit>","Unbuildable","Uncapturable","Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
     //Heroes
 	{
 		"name": "Luke Skywalker",
 		"uniqueTo": "Rebel Alliance",
 		"replaces": "Hero",
 		"unitType": "Jedi",
+		"cost": 600,
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Lightsaber","Return of the Jedi"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -39,10 +22,11 @@
 		"uniqueTo": "Galactic Empire",
 		"replaces": "Hero",
 		"unitType": "Jedi",
+		"cost": 600,
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Lightsaber","Merciless"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -55,10 +39,11 @@
 		"uniqueTo": "Smugglers",
 		"replaces": "Hero",
 		"unitType": "Battler",
+		"cost": 600,
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Infantry","Unbuildable","[+125]% Strength <vs [Jedi] units>"],
+		"uniques": ["Level 5","Infantry","[+125]% Strength <vs [Jedi] units>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Jetpack","Payday"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
@@ -71,10 +56,11 @@
 		"uniqueTo": "Galactic Republic",
 		"replaces": "Hero",
 		"unitType": "Jedi",
+		"cost": 600,
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Lightsaber","Defensive Stance"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -83,19 +69,20 @@
 				"imageSize": 256 }]
 	},
 	{
-		"name": "Anakin Skywalker",
+		"name": "Count Dooku",
 		"uniqueTo": "Separatists",
 		"replaces": "Hero",
 		"unitType": "Jedi",
+		"cost": 600,
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Lightsaber","Swordplay"],
 		"attackSound": "lshit",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Anakin Skywalker",
+				"extraImage": "TileSets/FantasyHex/Units/Count Dooku",
 				"imageSize": 256 }]
 	},
 	{
@@ -103,12 +90,13 @@
 		"uniqueTo": "The Jedi Order",
 		"replaces": "Hero",
 		"unitType": "Jedi",
+		"cost": 600,
 		"movement": 3,
 		"range": 2,
 		"strength": 80,
 		"rangedStrength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Force Lightning","Wisdom"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -121,10 +109,11 @@
 		"uniqueTo": "Resistance",
 		"replaces": "Hero",
 		"unitType": "Jedi",
+		"cost": 600,
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Lightsaber","Force Healing"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -137,10 +126,11 @@
 		"uniqueTo": "First Order",
 		"replaces": "Hero",
 		"unitType": "Jedi",
+		"cost": 600,
 		"movement": 2,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Lightsaber","Scarred"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -153,12 +143,13 @@
 		"uniqueTo": "Sith Eternal",
 		"replaces": "Hero",
 		"unitType": "Jedi",
+		"cost": 600,
 		"movement": 2,
 		"range": 2,
 		"strength": 80,
 		"rangedStrength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Force Lightning","Force Siphon"],
 		"attackSound": "elechit",
 		"civilopediaText": [
@@ -167,31 +158,28 @@
 				"imageSize": 256 }]
 	},
    //Level 1
-   //Civilians are meant to cost around x2-x3 of era base trooper, and settlers x2 of civilians
     {
-		"name": "Settler",
+		"name": "Founder",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 48,
-		"upgradesTo": "Settler (Level 2)",
-		"uniques": ["Level 1","Infantry","Founds a new city", "Requires at least [2] population","Only available <during the [Level 1]>"],
+		"uniques": ["Level 1","Infantry","Founds a new city", "Requires at least [2] population"],
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Settler",
+				"extraImage": "TileSets/FantasyHex/Units/Founder",
 				"imageSize": 256 }]
 	},
-    {
-		"name": "Worker",
+	{
+		"name": "Droid",
 		"unitType": "Civilian",
 		"cost": 24,
-		"obsoleteTech" : "Power Cores",
-		"upgradesTo": "Worker (Level 2)",
-		"uniques": ["Level 1","Infantry","Can instantly construct a [Shelter] improvement <by consuming this unit>","Can instantly construct a [Extractor] improvement <by consuming this unit>", "Can instantly construct a [Trade Point] improvement <by consuming this unit>","Only available <during the [Level 1]>"],
+		"uniques": ["Level 1","Infantry","Ignores terrain cost","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
 		"movement": 2,
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"extraImage": "TileSets/FantasyHex/Units/Droid",
 				"imageSize": 256 }]
+		
 	},
 	{
 		"name": "Scout Recruit",
@@ -206,48 +194,6 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Scout Recruit",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Research Builder",
-		"unitType": "Civilian",
-		"cost": 24,
-		"requiredTech": "Research",
-		"obsoleteTech" : "Power Cores",
-		"upgradesTo": "Research Builder (Level 2)",
-		"uniques": ["Level 1","Infantry","Can instantly construct a [Laboratory] improvement <by consuming this unit>","Can instantly construct a [Command Center] improvement <by consuming this unit>","Can instantly construct a [Factory] improvement <by consuming this unit> <after discovering [Factories]>","Can instantly construct a [Radar Dish] improvement <by consuming this unit> <after discovering [Scanning]>","Only available <during the [Level 1]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Research Builder",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Expansion Builder",
-		"unitType": "Civilian",
-		"cost": 24,
-		"requiredTech": "Expansion",
-		"obsoleteTech" : "Power Cores",
-		"upgradesTo": "Expansion Builder (Level 2)",
-		"uniques": ["Level 1","Infantry","Can instantly construct a [Power Core] improvement <by consuming this unit> <after discovering [Power Cores]>","Can instantly construct a [Outpost] improvement <by consuming this unit> <after discovering [Outposts]>","Can instantly construct a [Shield Generator] improvement <by consuming this unit> <after discovering [Energy Shields]>","Only available <during the [Level 1]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Expansion Builder",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Military Builder",
-		"unitType": "Civilian",
-		"cost": 24,
-		"requiredTech": "Military",
-		"obsoleteTech" : "Power Cores",
-		"upgradesTo": "Military Builder (Level 2)",
-		"uniques": ["Level 1","Infantry","Can instantly construct a [Military Base] improvement <by consuming this unit>","Can instantly construct a [Mech Complex] improvement <by consuming this unit> <after discovering [Mechs]>","Can instantly construct a [War Center] improvement <by consuming this unit> <after discovering [Tacticians]>","Can instantly construct a [Spaceport] improvement <by consuming this unit> <after discovering [Spaceports]>","Only available <during the [Level 1]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Military Builder",
 				"imageSize": 256 }]
 	},
 	{
@@ -305,79 +251,6 @@
 	},
 	//Level 2
 	{
-		"name": "Settler (Level 2)",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 84,
-		"upgradesTo": "Settler (Level 3)",
-		"uniques": ["Level 2","Infantry","Founds a new city", "Requires at least [2] population","Only available <during the [Level 2]>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Settler",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Droid",
-		"unitType": "Civilian",
-		"requiredTech": "Roads",
-		"cost": 48,
-		"uniques": ["Level 2","Infantry","Ignores terrain cost","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Droid",
-				"imageSize": 256 }]
-		
-	},
-    {
-		"name": "Worker (Level 2)",
-		"unitType": "Civilian",
-		"cost": 48,
-		"upgradesTo": "Worker (Level 3)",
-		"uniques": ["Level 2","Infantry","Can instantly construct a [Shelter] improvement <by consuming this unit>","Can instantly construct a [Extractor] improvement <by consuming this unit>","Can instantly construct a [Trade Point] improvement <by consuming this unit>","Only available <during the [Level 2]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Worker",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Research Builder (Level 2)",
-		"unitType": "Civilian",
-		"cost": 48,
-		"upgradesTo": "Research Builder (Level 3)",
-		"uniques": ["Level 1","Infantry","Can instantly construct a [Laboratory] improvement <by consuming this unit>","Can instantly construct a [Command Center] improvement <by consuming this unit>","Can instantly construct a [Factory] improvement <by consuming this unit> <after discovering [Factories]>","Can instantly construct a [Radar Dish] improvement <by consuming this unit> <after discovering [Scanning]>","Only available <during the [Level 2]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Research Builder",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Expansion Builder (Level 2)",
-		"unitType": "Civilian",
-		"cost": 48,
-		"upgradesTo": "Expansion Builder (Level 3)",
-		"uniques": ["Level 2","Infantry","Can instantly construct a [Power Core] improvement <by consuming this unit> <after discovering [Power Cores]>","Can instantly construct a [Outpost] improvement <by consuming this unit> <after discovering [Outposts]>","Can instantly construct a [Shield Generator] improvement <by consuming this unit> <after discovering [Energy Shields]>","Only available <during the [Level 2]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Expansion Builder",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Military Builder (Level 2)",
-		"unitType": "Civilian",
-		"cost": 48,
-		"upgradesTo": "Military Builder (Level 3)",
-		"uniques": ["Level 2","Infantry","Can instantly construct a [Military Base] improvement <by consuming this unit>","Can instantly construct a [Mech Complex] improvement <by consuming this unit> <after discovering [Mechs]>","Can instantly construct a [War Center] improvement <by consuming this unit> <after discovering [Tacticians]>","Can instantly construct a [Spaceport] improvement <by consuming this unit> <after discovering [Spaceports]>","Only available <during the [Level 2]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Military Builder",
-				"imageSize": 256 }]
-	},
-	{
 		"name": "Scout Trooper",
 		"unitType": "Recon",
 		"cost": 18,
@@ -401,7 +274,7 @@
 		"requiredTech": "Outposts",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Temples",
-		"uniques": ["Level 2","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 2","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -553,66 +426,6 @@
 	},
 	//Level 3
 	{
-		"name": "Settler (Level 3)",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 256,
-		"upgradesTo": "Settler (Level 4)",
-		"uniques": ["Level 1","Infantry","Founds a new city", "Requires at least [2] population","Only available <during the [Level 3]>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Settler",
-				"imageSize": 256 }]
-	},
-    {
-		"name": "Worker (Level 3)",
-		"unitType": "Civilian",
-		"cost": 128,
-		"upgradesTo": "Worker (Level 4)",
-		"uniques": ["Level 1","Infantry","Can instantly construct a [Shelter] improvement <by consuming this unit>", "Can instantly construct a [Extractor] improvement <by consuming this unit>", "Can instantly construct a [Trade Point] improvement <by consuming this unit>","Only available <during the [Level 3]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Worker",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Research Builder (Level 3)",
-		"unitType": "Civilian",
-		"cost": 128,
-		"upgradesTo": "Research Builder (Level 4)",
-		"uniques": ["Level 3","Infantry","Can instantly construct a [Laboratory] improvement <by consuming this unit>","Can instantly construct a [Command Center] improvement <by consuming this unit>","Can instantly construct a [Factory] improvement <by consuming this unit> <after discovering [Factories]>","Can instantly construct a [Radar Dish] improvement <by consuming this unit> <after discovering [Scanning]>","Only available <during the [Level 3]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Research Builder",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Expansion Builder (Level 3)",
-		"unitType": "Civilian",
-		"cost": 128,
-		"upgradesTo": "Expansion Builder (Level 4)",
-		"uniques": ["Level 3","Infantry","Can instantly construct a [Power Core] improvement <by consuming this unit> <after discovering [Power Cores]>","Can instantly construct a [Outpost] improvement <by consuming this unit> <after discovering [Outposts]>","Can instantly construct a [Shield Generator] improvement <by consuming this unit> <after discovering [Energy Shields]>","Only available <during the [Level 3]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Expansion Builder",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Military Builder (Level 3)",
-		"unitType": "Civilian",
-		"cost": 128,
-		"upgradesTo": "Military Builder (Level 4)",
-		"uniques": ["Level 3","Infantry","Can instantly construct a [Military Base] improvement <by consuming this unit>","Can instantly construct a [Mech Complex] improvement <by consuming this unit> <after discovering [Mechs]>","Can instantly construct a [War Center] improvement <by consuming this unit> <after discovering [Tacticians]>","Can instantly construct a [Spaceport] improvement <by consuming this unit> <after discovering [Spaceports]>","Only available <during the [Level 3]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Military Builder",
-				"imageSize": 256 }]
-	},
-	{
 		"name": "Knight",
 		"unitType": "Jedi",
 		"movement": 2,
@@ -621,7 +434,7 @@
 		"requiredResource": "Nova",
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -831,61 +644,6 @@
 	},
 	//Level 4
 	{
-		"name": "Settler (Level 4)",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 480,
-		"uniques": ["Level 4","Infantry","Founds a new city", "Requires at least [2] population", "Only available <starting from the [Level 4]>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Settler",
-				"imageSize": 256 }]
-	},
-    {
-		"name": "Worker (Level 4)",
-		"unitType": "Civilian",
-		"cost": 240,	
-		"uniques": ["Level 4","Infantry","Can instantly construct a [Shelter] improvement <by consuming this unit>", "Can instantly construct a [Extractor] improvement <by consuming this unit>", "Can instantly construct a [Trade Point] improvement <by consuming this unit>","Only available <starting from the [Level 4]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Worker",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Research Builder (Level 4)",
-		"unitType": "Civilian",
-		"cost": 240,
-		"uniques": ["Level 4","Infantry","Can instantly construct a [Laboratory] improvement <by consuming this unit>","Can instantly construct a [Command Center] improvement <by consuming this unit>","Can instantly construct a [Factory] improvement <by consuming this unit> <after discovering [Factories]>","Can instantly construct a [Radar Dish] improvement <by consuming this unit> <after discovering [Scanning]>","Only available <starting from the [Level 4]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Research Builder",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Expansion Builder (Level 4)",
-		"unitType": "Civilian",
-		"cost": 240,
-		"uniques": ["Level 4","Infantry","Can instantly construct a [Power Core] improvement <by consuming this unit> <after discovering [Power Cores]>","Can instantly construct a [Outpost] improvement <by consuming this unit> <after discovering [Outposts]>","Can instantly construct a [Shield Generator] improvement <by consuming this unit> <after discovering [Energy Shields]>", "Only available <starting from the [Level 4]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Expansion Builder",
-				"imageSize": 256 }]
-	},
-	{
-		"name": "Military Builder (Level 4)",
-		"unitType": "Civilian",
-		"cost": 240,
-		"uniques": ["Level 4","Infantry","Can instantly construct a [Military Base] improvement <by consuming this unit>","Can instantly construct a [Mech Complex] improvement <by consuming this unit> <after discovering [Mechs]>","Can instantly construct a [War Center] improvement <by consuming this unit> <after discovering [Tacticians]>","Can instantly construct a [Spaceport] improvement <by consuming this unit> <after discovering [Spaceports]>", "Only available <starting from the [Level 4]>"],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Military Builder",
-				"imageSize": 256 }]
-	},
-	{
 		"name": "Master",
 		"unitType": "Jedi",
 		"movement": 2,
@@ -894,7 +652,7 @@
 		"cost": 360,
 		"requiredResource": "Nova",
 		"requiredTech": "The Force",
-		"uniques": ["Level 4","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 4","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1091,7 +849,7 @@
 		"cost": 600,
 		"requiredResource": "Reactor",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","[+100]% Strength <vs [Orbital Strike] units>","Can carry [2] [Air] units","Can carry Orbital Strike","Never appears as a Barbarian unit"],
+		"uniques": ["Level 4","[+100]% Strength <vs [Orbital Strike] units>","Can carry [2] [Aircraft] units","Can carry [1] [Orbital Strike] units","Never appears as a Barbarian unit"],
 		"attackSound": "fleethit",
 		"civilopediaText": [
 			{
@@ -1104,7 +862,7 @@
 		"movement": 1,
 		"strength": 175,
 		"rangedStrength": 175,
-		"range": 5,
+		"range": 10,
 		"cost": 600,
 		"requiredResource": "Reactor",
 		"requiredTech": "Orbital Strikes",
@@ -1163,7 +921,7 @@
 		"cost": 168,
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1311,7 +1069,7 @@
 		"requiredResource": "Nova",
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+35]% Strength <vs [Jedi] units>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+35]% Strength <vs [Jedi] units>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1479,14 +1237,13 @@
 		"name": "Smuggling Droid",
 		"unitType": "Ranged Battler",
 		"requiredTech": "Roads",
-		"replaces": "Droid",
 		"uniqueTo": "Smugglers",
 		"movement": 2,
 		"range": 2,
 		"strength": 7,
 		"rangedStrength": 12,
 		"cost": 48,
-		"uniques": ["Level 2","Infantry","Ignores terrain cost","Limited to [5] per Civilization","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
+		"uniques": ["Level 2","Infantry","Ignores terrain cost","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Smuggling Droid",
@@ -1602,7 +1359,7 @@
 		"cost": 160,
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1880,7 +1637,7 @@
 		"requiredResource": "Nova",
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber","Force Perception"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1919,7 +1676,7 @@
 		"cost": 300,
 		"requiredResource": "Nova",
 		"requiredTech": "The Force",
-		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber","Force Cloak","Force Perception"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -2171,7 +1928,7 @@
 		"requiredResource": "Nova",
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+35]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+35]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Scarred"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -2306,7 +2063,7 @@
 		"requiredResource": "Nova",
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Lightsaber","Force Cloak"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -2347,7 +2104,7 @@
 		"cost": 300,
 		"requiredResource": "Nova",
 		"requiredTech": "The Force",
-		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"],
 		"promotions": ["Force Lightning","Force Cloak","Force Perception"],
 		"attackSound": "elechit",
 		"civilopediaText": [
@@ -2375,7 +2132,7 @@
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Level 2","May found a religion","May enhance a religion","Unbuildable","Takes your religion over the one in their birth city","Religious Unit"],
+		"uniques": ["Level 2","May found a religion","May enhance a religion","Can [Spread Religion] [4] times","Removes other religions when spreading religion","Unbuildable","Takes your religion over the one in their birth city","Religious Unit"],
 		"movement": 2,
 		"religiousStrength": 1000,
 		"civilopediaText": [
@@ -2389,10 +2146,9 @@
 		"movement": 2,
 		"strength": 52,
 		"interceptRange": 2,
-		"cost": 160,
 		"requiredResource": "Nova",
 		"requiredTech": "The Force",
-		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement <by consuming this unit>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Unbuildable", "Religious Unit"],
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can instantly construct a [Force Temple] improvement","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Unbuildable"],
 		"promotions": ["Force Ghost"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -2401,14 +2157,14 @@
 				"imageSize": 256 }]
 	},
 	{
-	 "name": "Missionary",
+	 "name": "Disciple",
 		"unitType": "Civilian",
 		"uniques": ["Level 1","Infantry","Can [Spread Religion] [1] times", "Can [Remove Foreign religions from your own cities] [1] times", "May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there", "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", "[-1] Sight", "Unbuildable","Religious Unit"],
 		"movement": 4,
 		"religiousStrength": 1000,
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Missionary",
+				"extraImage": "TileSets/FantasyHex/Units/Disciple",
 				"imageSize": 256 }]
 	},
 	{
@@ -2416,7 +2172,48 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Unbuildable"]
-	}
+	},
+
+	// Superweapon parts
+	{
+		"name": "Thermal Exhaust Port",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Superconductors",
+		"uniques": ["Superweapon part",
+		"Cannot be purchased",
+		"Only available <if [Superweapon Blueprints] is constructed>",
+		"Uncapturable",
+		"Can be added to [The Superweapon] in the Capital",
+		"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Superlaser",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Military Fleet",
+		"uniques": ["Superweapon part",
+		"Cannot be purchased",
+		"Only available <if [Superweapon Blueprints] is constructed>",
+		"Uncapturable",
+		"Can be added to [The Superweapon] in the Capital",
+		"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Main Reactor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Military Fleet",
+		"uniques": ["Superweapon part",
+		"Cannot be purchased",
+		"Only available <if [Superweapon Blueprints] is constructed>",
+		"Uncapturable",
+		"Can be added to [The Superweapon] in the Capital",
+		"Limited to [1] per Civilization"]
+	},
 	/*
 	{
 		"name": "Inventor", //Not really used during gameplay, just a Stand-In for for Civ-Exclusive Inventors

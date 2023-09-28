@@ -1,7 +1,7 @@
 [
     {
         "name": "learn virtue",
-        "notification": "We have found educationa texts in the supply drop, giving us [cultureAmount] virtue!",
+        "notification": "We have found educational texts in the supply drop, giving us [cultureAmount] virtue!",
         "uniques": ["Gain [20]-[30] [Culture]"],
         "color": "#cf8ff7"
     },
@@ -12,14 +12,14 @@
 		"color": "#7f7fff"
     },
     {
-        "name": "receive worker reinforcements",
-        "notification": "A [Worker] has been sent to join us!",
-        "uniques": ["Free [Worker] found in the ruins"]
+        "name": "receive droid reinforcements",
+        "notification": "A [Droid] has been sent to join us!",
+        "uniques": ["Free [Droid] found in the ruins"]
     },
     {
-        "name": "receive settler reinforcements",
-        "notification": "A [Settler] has been sent to join us!",
-        "uniques": ["Free [Settler] found in the ruins"]
+        "name": "receive founder reinforcements",
+        "notification": "A [Founder] has been sent to join us!",
+        "uniques": ["Free [Founder] found in the ruins"]
     },
     {
         "name": "your exploring unit receives training",

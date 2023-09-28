@@ -5,7 +5,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [250,250,250]
 	},
-	//
+	
 	{
 		"name": "Rebel Alliance",
 		"leaderName": "Luke Skywalker",
@@ -15,7 +15,7 @@
 		"preferredVictoryType": "Cultural",
 		
 
-		"startIntroPart1": "We all have our missions, yet the force still finds a way to bind us together. I'l try to stay close, but for now, let's settle a base around here.",
+		"startIntroPart1": "We all have our missions, yet the Force still finds a way to bind us together. I'l try to stay close, but for now, let's settle a base around here.",
 		"startIntroPart2": "Dangers lurk around every corner, so be careful. Good luck.",
 
 		"declaringWar": "You're leaving behind a trail of chaos and destruction, I have to stop you.",
@@ -31,10 +31,13 @@
 		
 		"outerColor": [245,245,245],
 		"innerColor": [238,0,0],
-		"favoredReligion": "Ashla",
+		"favoredReligion": "The Light",
 		"uniqueName": "Return of the Jedi",
 		"uniques": ["[+1 Food] from every [Shelter]",
-		"[+1 Culture] from every [Bonus resource]"],
+		"[+1 Culture] from every [Bonus resource]",
+		"[-50]% City-State Influence degradation",
+		"City-State Influence recovers at twice the normal rate",
+		"City-State territory always counts as friendly territory"],
 		"cities": ["Spark Base","Urus Base","Gavin Post","Ahren Base","Damiran Base","Kold Base","Bentom Base","Kyllen Base","Krish Base","Alhan Base","Layne Base","Justan Base"]
 	},
 	{
@@ -64,7 +67,8 @@
 		"favoredReligion": "The Mist",
 		"uniqueName": "Imperial March",
 		"uniques": ["[+1 Science] from every [Extractor]",
-		"[+1 Science] from every [Strategic resource]"],
+		"[+1 Science] from every [Strategic resource]",
+		"+30% Strength when fighting City-State units and cities"],
 		"cities": ["Vos Complex","Dismon Complex","Damiron Complex","Alixer Complex","Daln Complex","Llona Complex","Malca Complex","Blackfall Complex","Tex Complex","Gaphol Complex","Thusaad Complex","Ekog Complex"]
 	},
 	{
@@ -92,7 +96,9 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "The Wind",
 		"uniqueName": "Criminal Underworld",
-		"uniques": ["[+2 Gold] from every [Trade Point]","[+2 Gold] from every [Luxury resource]"],
+		"uniques": ["[+2 Gold] from every [Trade Point]",
+		"[+2 Gold] from every [Luxury resource]",
+		"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>"],
 		"cities": ["Etrephim Camp","Koat Camp","Vey Camp","Musc Camp","Strem Camp","Matzen Camp","Blaike Camp","Aylan Camp","Bleak Camp","Craix Camp","Khal Camp","Datrull Camp"]
 	},
 	{
@@ -116,11 +122,14 @@
 
 		"tradeRequest": "The Republic will finance this operation.",
 
-		"outerColor": [10,10,10],
-		"innerColor": [30,145,245],
+		"outerColor": [30,145,245],
+		"innerColor": [10,10,10],
 		"favoredReligion": "The Sight",
 		"uniqueName": "Always a Choice",
-		"uniques": ["[+1 Food] [in all cities]","[+20]% Strength <for [Infantry] units> <vs [Infantry] units>","[+40]% Production when constructing [Jedi] units [in all cities]"],
+		"uniques": ["[+1 Food] [in all cities]",
+		"[+20]% Strength <for [Infantry] units> <vs [Infantry] units>",
+		"[+40]% Production when constructing [Jedi] units [in all cities]",
+		"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
 		"cities": ["Silah District","Alryn District","Malk District","Thadd District","Adley District","Arol District","Ralth District","Malluk District","Rackham District","Prak District","Bentzen District","Kynon District"]
 	},
 	{
@@ -148,7 +157,9 @@
 		"innerColor": [225,155,0],
 		"favoredReligion": "The Tide",
 		"uniqueName": "Liberation Agenda",
-		"uniques": ["[+1 Happiness] [in all cities]","[+2] Unit Supply per [2] population [in all cities]","[Gold] cost of purchasing [Infantry] units [-30]%"],
+		"uniques": ["[+1 Happiness] [in all cities]",
+		"[+2] Unit Supply per [2] population [in all cities]",
+		"[Gold] cost of purchasing [Infantry] units [-30]%"],
 		"cities": ["Xerxes Complex","Seth Complex","Wolf Complex","Arol Complex","Mollen Complex","Sagan Complex","Jallan Complex","Edlo Complex","Cenl Complex","Tillon Complex","Jaddle Complex","Wynell Complex"]
 	},
 	{
@@ -175,9 +186,11 @@
 		
 		"outerColor": [240,225,225],
 		"innerColor": [120,40,10],
-		"favoredReligion": "The Force",
+		"favoredReligion": "The Light",
 		"uniqueName": "Wonders of the Force",
-		"uniques": ["Gain a free [Free Nova] [in capital]","[+1 Faith] [in all cities]","Starts with [Outposts]"],
+		"uniques": ["[+1 Faith] [in all cities]",
+		"Starts with [Outposts]",
+		"Provides [2] [Nova]"],
 		"cities": ["Wardy Monastery","Carte Monastery","Arall Monastery","Rezal Monastery","Molos Monastery","Utwin Monastery","Alnol Monastery","D'Kroll Monastery","Celn Monastery","Hati Monastery","Gornall Monastery","Billa Monastery"]
 	},
 	{
@@ -201,11 +214,16 @@
 
 		"tradeRequest": "Want any of this?",
 
-		"outerColor": [245,245,245],
-		"innerColor": [255,70,0],
+		"outerColor": [255,70,0],
+		"innerColor": [245,245,245],
 		"favoredReligion": "The Presence",
 		"uniqueName": "Legacy of the Heirs",
-		"uniques": ["[+1 Culture] from every [Shelter]","[+30]% Production when constructing [Air] units [in all cities]","[+20]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["[+1 Culture] from every [Shelter]",
+		"[+30]% Production when constructing [Air] units [in all cities]",
+		"[+20]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+		"[+50]% [Food] from City-States",
+		"[+50]% [Culture] from City-States",
+		"[+50]% [Faith] from City-States"],
 		"cities": ["Velli Base","Allon Base","Garall Base","Ulwin Base","Rallnall Base","Dolles Base","Tales Base","Sheelo Base","Calcis Base","Qually Base","Dolles Base","Tlisha Base"]
 	},
 	{
@@ -233,7 +251,9 @@
 		"innerColor": [0,0,0],
 		"favoredReligion": "The Wind",
 		"uniqueName": "Ruthless Pursuit",
-		"uniques": ["[+2 Science] per [2] population [in all cities]","[+30]% Production when constructing [Armor] units [in all cities]","[+20]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"],
+		"uniques": ["[+2 Science] per [2] population [in all cities]",
+		"[+30]% Production when constructing [Armor] units [in all cities]",
+		"[+20]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"],
 		"cities": ["Leppak Complex","Drajoil Complex","Vlio Complex","Arull Complex","Olosh Complex","Fummel Complex","Lackle Complex","Comlai Complex","Zrict Complex","Allesam Complex","Edrill Complex","Efillel Complex"]
 	},
 	{
@@ -245,7 +265,7 @@
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "The time to banish the heretics has come! Nothing will stop the return of the Sith!",
-		"startIntroPart2": "As a noble follower, you shall carry our will. The Sith shall rise once more!.",
+		"startIntroPart2": "As a noble follower, you shall carry our will. The Sith shall rise once more!",
 
 		"declaringWar": "Nothing will stop the return of the Sith!",
 		"attacked": "I shall execute... the Final Order.",
@@ -257,18 +277,145 @@
 
 		"tradeRequest": "The darkside is a pathway to many abilities some might consider... Unnatural",
 
-		"outerColor": [6,6,6],
-		"innerColor": [250,0,0],
-		"favoredReligion": "The Beyond",
+		"outerColor": [250,0,0],
+		"innerColor": [6,6,6],
+		"favoredReligion": "The Dark",
 		"uniqueName": "The Final Order",
-		"uniques": ["Gain a free [Free Nova] [in capital]","Gain a free [Sith Shrine] [in all cities]","[+1 Faith] from every specialist [in all cities]"],
+		"uniques": ["Gain a free [Sith Shrine] [in all cities]",
+		"[+1 Faith] from every specialist [in all cities]",
+		"Provides [2] [Nova]"],
 		"cities": ["Aclidraut Camp","Wechell Camp","Aklal Camp","Anell Camp","Xolox Camp","Vorall Camp","Sturm Camp","Bynall Camp","Eball Camp","Vallon Camp","Ifdrill Camp","Morill Camp"]
 	},
-	//City-States/Not Implemented
-	//
+	{
+		"name": "Mandalorians",
+		"leaderName": "Bo-Katan Kryze",
+		"adjective": ["Mandalorian"],
+		"style": "Mandalorian",
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "For thousands of years, we have been on the verge of extinction, and for thousands of years we have survived. It is time to rebuild Mandalore",
+		"startIntroPart2": "This is the Way.",
+
+		"declaringWar": "The resurrection of our warrior past is about to begin!",
+		"attacked": "Mandalore has always been too powerful for any enemy to defeat.",
+		"defeated": "It is always our own division that destroys us.",
+		"introduction": "We are a people of tradition. Weapons are part of our religion.",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+
+		"tradeRequest": "You have something that I want.",
+
+		"outerColor": [3,115,86],
+		"innerColor": [255,184,33],
+		"favoredReligion": "The Way",
+		"uniqueName": "The Path of Mandalore",
+		"uniques": ["Damage is ignored when determining unit Strength",
+		"[+1 Faith, +1 Culture] from every [Beskar]",
+		"Military Units gifted from City-States start with [+10] XP",
+		"Double quantity of [Ore] produced"],
+		"cities": ["Mandalore Base","Concord Dawn Base","Gargon Base","Glavis Base","Kalevala Base","Krownest Base","Concordia Base","Nevarro Base","Ordo Base","Vlemoth Base"]
+	},
+	//City-States
+	{
+		"name": "Cloud City",
+		"adjective": ["Cloud City"],
+		"cityStateType": "Economic",
+		"startBias": ["Hill"],
+
+		"declaringWar": "Let's get this party started!",
+		"attacked": "Fellas, why so aggressive?",
+		"defeated": "The enemy has taken control of the city; I advise everyone to leave before more troops arrive.",
+		"outerColor": [47, 47, 47],
+		"innerColor": [197, 55, 222],
+		"cities": ["Cloud City"]
+	},
+
+	{
+		"name": "Chiss Ascendancy",
+		"adjective": ["Chiss"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "My job - the sole reason for my existence - is to defend the Chiss Ascendancy and protect my people.",
+		"attacked": "Commence the attack!",
+		"defeated": "If one is remembered by a friend, one is never truly gone.",
+		"outerColor": [47, 47, 47],
+		"innerColor": [207, 84, 58],
+		"cities": ["Chiss Ascendancy"]
+	},
+
+	{
+		"name": "Incom-FreiTek Corporation",
+		"adjective": ["Incom-FreiTek"],
+		"cityStateType": "Industrial",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [47, 47, 47],
+		"innerColor": [222, 116, 55],
+		"cities": ["Incom-FreiTek Corporation"]
+	},
+
+	{
+		"name": "Guardians of the Whills",
+		"adjective": ["Whills"],
+		"cityStateType": "Attuned",
+		"startBias": ["Desert"],
+
+		"declaringWar": "We can not allow theft in this holy place.",
+		"attacked": "We fear nothing, because all is as the Force wills it.",
+		"defeated": "In darkness, cold. In light, cold. The old sun brings no heat.",
+		"outerColor": [47, 47, 47],
+		"innerColor": [55, 200, 222],
+		"cities": ["Guardians of the Whills"]
+	},
+
+	{
+		"name": "Moisture Farm Collective",
+		"adjective": ["Moisture Farmer"],
+		"cityStateType": "Logistical",
+		"startBias": ["Desert"],
+
+		"declaringWar": "Best to shoot first, talk later.",
+		"attacked": "You've poked the monster, and now it is awake.",
+		"defeated": "We'll die in service to this town, and maybe this town will die with us, but we won't be the last, not by a long shot.",
+		"outerColor": [47, 47, 47],
+		"innerColor": [114, 222, 55],
+		"cities": ["Moisture Farm Collective"]
+	},
+
+	{
+		"name": "Society for All Sentients",
+		"adjective": ["Society-Sentient"],
+		"cityStateType": "Virtuous",
+
+		"declaringWar": "Your cruelty to the droids ends here!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could you be so cruel to fellow sentients?",
+		"outerColor": [47, 47, 47],
+		"innerColor": [197, 55, 222],
+		"cities": ["Society for All Sentients"]
+	},
+
+	{
+		"name": "Techno Union",
+		"adjective": ["Techno Union"],
+		"cityStateType": "Scientific",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "You can't attack us, we have corporate neutrality!",
+		"defeated": "You've ruined years of research!",
+		"outerColor": [47, 47, 47],
+		"innerColor": [65, 129, 210],
+		"cities": ["Techno Union"]
+	},
+
 	//Barbarians
 	{
 		"name": "Barbarians",
+		"style": "Smuggler",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging"]

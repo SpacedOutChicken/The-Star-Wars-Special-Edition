@@ -6,11 +6,6 @@
 		"buildingCost": 10,
 		"wonderCost": 10,
 		"techs": [
-		    {
-				"name": "AI Mechanics",
-				"row": 1,
-				"uniques": ["Only available <after discovering [AI Mechanics]>","AI Exclusive"]
-			},
 			{
 				"name": "Center Base",
 				"row": 5,
