@@ -1,6 +1,9 @@
 {
     "isBaseRuleset": true,
     "constants": {
-        "maxXPfromBarbarians":150
+        "maxXPfromBarbarians":150,
+        "religionLimitBase": 1,
+        "religionLimitMultiplier": 1,
+        "unitSupplyPerPopulation": 1
     }
 }

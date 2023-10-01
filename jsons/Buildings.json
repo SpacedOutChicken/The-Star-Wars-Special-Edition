@@ -12,6 +12,7 @@
 		"name": "Sith Shrine",
 		"cost": 1,
 		"specialistSlots": {"Cultist": 1},
+		"cityStrength": 5,
 		"uniqueTo": "The Sith Eternal",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -37,7 +38,6 @@
 	{
 		"name": "Hunt Food",
 		"requiredTech": "Supplies",
-		"requiredResource": "Energy",
 		"food": 1,
 		"uniques": ["[+1 Production] from [Shelter] tiles [in this city]",
 		"Destroyed when the city is captured",
@@ -46,7 +46,6 @@
 	{
 		"name": "Farm Food",
 		"requiredTech": "Supplies",
-		"requiredResource": "Energy",
 		"food": 1,
 		"uniques": ["[+1 Food] from [Shelter] tiles [in this city]",
 		"Destroyed when the city is captured",
@@ -54,7 +53,7 @@
 	},
 	{
 		"name": "Trade District",
-		"requiredTech": "Trade",
+		"requiredTech": "Planetary Trade",
 		"gold": 1,
 		"requiredResource": "Energy",
 		"uniques": ["[+2 Gold] from [Trade Point] tiles [in this city]",
@@ -63,7 +62,7 @@
 	},
 	{
 		"name": "Trading Custom",
-		"requiredTech": "Trade",
+		"requiredTech": "Planetary Trade",
 		"gold": 1,
 		"requiredResource": "Energy",
 		"uniques": ["[+1 Culture] from [Trade Point] tiles [in this city]",
@@ -86,7 +85,7 @@
 		"requiredResource": "Energy",
 		"uniques": ["[+1 Food] from [Laboratory] tiles [in this city]",
 		"Destroyed when the city is captured",
-		"Only available <in cities without a [Cybertech Focus]>"]
+		"Only available <in cities without a [Biotech Focus]>"]
 	},
 	{
 		"name": "Build Motivator",
@@ -110,7 +109,7 @@
 	{
 		"name": "Military Training",
 		"production": 1,
-		"requiredTech": "Ranged Trooper",
+		"requiredTech": "Ranged Troopers",
 		"requiredResource": "Energy",
 		"uniques": ["New [Infantry] units start with [10] Experience [in this city]",
 		"Destroyed when the city is captured",
@@ -119,7 +118,7 @@
 	{
 		"name": "Production Cadets",
 		"production": 1,
-		"requiredTech": "Mounted Trooper",
+		"requiredTech": "Ranged Troopers",
 		"requiredResource": "Energy",
 		"uniques": ["[+50]% Production when constructing [Infantry] units [in this city]",
 		"Destroyed when the city is captured",
@@ -187,7 +186,9 @@
 	{
 		"name": "Smart Processor",
 		"requiredTech": "Power Cores",
-		"uniques": ["[+3 Production] [in this city]",
+		"production": 3,
+		"percentStatBonus": {"production": 50},
+		"uniques": ["Provides [1] [Energy]",
 		"Destroyed when the city is captured",
 		"Only available <in cities without a [Increased Energy]>"]
 	},
@@ -366,7 +367,10 @@
 	{
 		"name": "Energized Buildings",
 		"requiredTech": "Advanced Energy",
-		"uniques": ["[+3 Production] [in this city]",
+		"production": 3,
+		"percentStatBonus": {"production": 50},
+		"uniques": ["Provides [1] [Energy]",
+		"[+3 Production] [in this city]",
 		"Destroyed when the city is captured",
 		"Only available <in cities without a [Fusion Core]>"]
 	},
@@ -400,7 +404,7 @@
 		"name": "Advanced Walls",
 		"requiredTech": "Advanced Energy",
 		"requiredResource": "Ore",
-		"cityHealth": 25,
+		"cityHealth": 50,
 		"uniques": ["Destroyed when the city is captured",
 		"Only available <in cities without a [Advanced Turrets]>"]
 	},
@@ -408,11 +412,9 @@
 		"name": "Units Shielding",
 		"requiredTech": "Energy Shields",
 		"requiredResource": "Energy",
-		"uniques": ["All newly-trained [All] units [in this city] receive the [Energy Shield] promotion",
+		"uniques": ["All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion",
 		"Destroyed when the city is captured",
 		"Only available <in cities without a [City Shielding]>"]
-		
-		
 	},
 	{
 		"name": "City Shielding",
@@ -611,8 +613,7 @@
 		"uniques": ["[+2 Culture] from [Radar Dish] tiles [in this city]",
 		"[-50]% Unhappiness from [Specialists] [in this city]",
 		"Destroyed when the city is captured",
-		"Only available <in cities without a [Operative Scanner]>",
-		"Only available <in cities without a [Satellite Reveal]>"]
+		"Only available <in cities without a [Operative Scanner]>"]
 		
 	},
 	{
@@ -623,8 +624,7 @@
 		"uniques": ["[+2 Culture] from [Radar Dish] tiles [in this city]",
 		"[-50]% Food consumption by specialists [in this city]",
 		"Destroyed when the city is captured",
-		"Only available <in cities without a [Frequency Scanner]>",
-		"Only available <in cities without a [Satellite Reveal]>"]
+		"Only available <in cities without a [Frequency Scanner]>"]
 	},
 	{
 		"name": "Satellite Reveal",
@@ -632,9 +632,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Scanning",
 		"uniques": ["Reveals the entire map",
-		"Must have an owned [Radar Dish] within [3] tiles",
-		"Only available <in cities without a [Operative Scanner]>",
-		"Only available <in cities without a [Frequency Scanner]>"]
+		"[+1] Sight <for [All] units>"]
 	},
 	{
 		"name": "Optimized Outpost",
@@ -656,7 +654,9 @@
 	{
 		"name": "Powered Assembly",
 		"requiredTech": "Fortress",
-		"uniques": ["[+3 Production] [in this city]",
+		"production": 3,
+		"percentStatBonus": {"production": 50},
+		"uniques": ["Provides [1] [Energy]",
 		"Destroyed when the city is captured",
 		"Only available <in cities without a [Fusion Core]>"]
 	},
@@ -698,6 +698,7 @@
 		"name": "Shield Enhancing",
 		"requiredTech": "Superconductors",
 		"requiredResource": "Energy",
+		"cityStrength": 10,
 		"cityHealth": 50,
 		"uniques": ["Destroyed when the city is captured",
 		"Only available <in cities without a [Self-Powering Shield]>"]
@@ -708,7 +709,7 @@
 		"cityHealth": 15,
 		"uniques": ["Provides [3] [Energy]",
 		"Destroyed when the city is captured",
-		"Only available <in cities without a [Self-Powering Shield]>"]
+		"Only available <in cities without a [Shield Enhancing]>"]
 	},
 	{
 		"name": "Special Base",
@@ -790,8 +791,6 @@
 		"uniques": ["[+100]% Production when constructing [Starship] units [in this city]",
 		"Destroyed when the city is captured",
 		"Provides [1] [Reactor]",
-		"Only available <in cities without a [Operative Scanner]>",
-		"Only available <in cities without a [Frequency Scanner]>",
 		"Only available <in cities without a [Orbital Scanner]>"]
 	},
 	{
@@ -803,8 +802,6 @@
 		"uniques": ["[+100]% Production when constructing [Orbital Strike] units [in this city]",
 		"Destroyed when the city is captured",
 		"Provides [1] [Reactor]",
-		"Only available <in cities without a [Frequency Scanner]>",
-		"Only available <in cities without a [Operative Scanner]>",
 		"Only available <in cities without a [Fleet Manufactory]>"]
 	},
 	{
@@ -845,8 +842,9 @@
 		"name": "Virtue Plan",
 		"requiredTech": "Planned Development",
 		"requiredResource": "Energy",
-		"uniques": ["[+5 Culture] [in this city]",
-		"Destroyed when the city is captured",
+		"culture": 5,
+		"percentStatBonus": {"culture": 15},
+		"uniques": ["Destroyed when the city is captured",
 		"Only available <in cities without a [Health Plan]>",
 		"Only available <in cities without a [Tech Plan]>",
 		"Only available <in cities without a [Credits Plan]>",
@@ -856,7 +854,8 @@
 		"name": "Health Plan",
 		"requiredTech": "Planned Development",
 		"requiredResource": "Energy",
-		"uniques": ["[+3 Happiness] [in this city]",
+		"happiness": 3,
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city]",
 		"Destroyed when the city is captured",
 		"Only available <in cities without a [Virtue Plan]>",
 		"Only available <in cities without a [Tech Plan]>",
@@ -867,8 +866,9 @@
 		"name": "Tech Plan",
 		"requiredTech": "Planned Development",
 		"requiredResource": "Energy",
-		"uniques": ["[+5 Science] [in this city]",
-		"Destroyed when the city is captured",
+		"science": 5,
+		"percentStatBonus": {"science": 25},
+		"uniques": ["Destroyed when the city is captured",
 		"Only available <in cities without a [Virtue Plan]>",
 		"Only available <in cities without a [Health Plan]>",
 		"Only available <in cities without a [Credits Plan]>",
@@ -878,8 +878,9 @@
 		"name": "Credits Plan",
 		"requiredTech": "Planned Development",
 		"requiredResource": "Energy",
-		"uniques": ["[+10 Gold] [in this city]",
-		"Destroyed when the city is captured",
+		"gold": 10,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Destroyed when the city is captured",
 		"Only available <in cities without a [Virtue Plan]>",
 		"Only available <in cities without a [Tech Plan]>",
 		"Only available <in cities without a [Health Plan]>",
@@ -889,8 +890,9 @@
 		"name": "Will Plan",
 		"requiredTech": "Planned Development",
 		"requiredResource": "Energy",
-		"uniques": ["[+10 Faith] [in this city]",
-		"Destroyed when the city is captured",
+		"faith": 10,
+		"percentStatBonus": {"faith": 10},
+		"uniques": ["Destroyed when the city is captured",
 		"Only available <in cities without a [Virtue Plan]>",
 		"Only available <in cities without a [Tech Plan]>",
 		"Only available <in cities without a [Health Plan]>",
@@ -915,12 +917,14 @@
 	{
 		"name": "Monument",
 		"isWonder": true,
+		"requiredTech": "Temples",
 		"culture": 1,
 		"cost": 2400,
 		"uniques": ["Hidden until [4] social policy branches have been completed",
 		"[+1] population [in all cities]",
 		"[+1 Happiness] [in all cities]",
 		"[+10]% [Faith] [in all cities]",
+		"Free [Great Prophet] appears",
 		"Triggers a global alert upon build start"]
 	},
 	{
@@ -967,10 +971,12 @@
 	{
 		"name": "Planetary Senate",
 		"isWonder": true,
+		"requiredTech": "Galactic Trade",
 		"cost": 2400,
 		"culture": 1,
 		"uniques": ["Triggers voting for the Diplomatic Victory",
 		"Hidden when [Diplomatic] Victory is disabled",
+		"Triggers a global alert upon build start",
 		"Triggers a global alert upon completion"]
 	}
 ]

@@ -241,7 +241,7 @@
             },
 			{
                 "name": "Military Economy",
-				"requires": ["Battle Reserves"],
+				"requires": ["Weapons Depot"],
                 "uniques": ["[Gold] cost of purchasing [All] units [-30]%"],
                 "row": 2,
                 "column": 4
@@ -317,7 +317,7 @@
 	{
         "name": "Adaptionists",
         "era": "Level 3",
-        "uniques": ["[+35]% growth [in all cities]","[+15]% growth [in capital]","Only available <after adopting [Armed Survivalists]>"],
+        "uniques": ["[+35]% growth [in all cities]","[+15]% growth [in capital]","Only available <after adopting [Survivalist Complete]>"],
 		"priorities": {
             "Neutral": 50,
             "Cultural": 20,
@@ -355,7 +355,7 @@
 			{
                 "name": "Bacta Tanks",
 				"requires": ["Veteran Survivors","Controlled Fauna"],
-                "uniques": ["[Military] units gain the [Bacta Tanks] promotion"],
+                "uniques": ["[All] Units adjacent to this city heal [+20] HP per turn when healing","[+20] HP when healing <for [All] units>"],
                 "row": 3,
                 "column": 3
             },	
@@ -370,7 +370,7 @@
 	{
         "name": "Commercialists",
         "era": "Level 3",
-        "uniques": ["[+1 Gold] from all [All] buildings","Only available <after adopting [Deal Closing]>"],
+        "uniques": ["[+1 Gold] from all [All] buildings","Only available <after adopting [Trader Complete]>"],
 		"priorities": {
             "Neutral": 30,
             "Cultural": 20,
@@ -423,7 +423,7 @@
 	{
         "name": "Inventors",
         "era": "Level 3",
-        "uniques": ["[+25]% [Science] <while the empire is happy>","Only available <after adopting [Advanced Expansion]>"],
+        "uniques": ["[+25]% [Science] <while the empire is happy>","Only available <after adopting [Researchers Complete]>"],
 		"priorities": {
             "Neutral": 30,
             "Cultural": 10,
@@ -477,7 +477,7 @@
 	{
         "name": "Sages",
         "era": "Level 3",
-		"uniques": ["[Jedi] units gain the [Faith in the Force] promotion","[+3 Culture] from every [Force Temple]","Only available <after adopting [Force Strength]>"],
+		"uniques": ["[Jedi] units gain the [Faith in the Force] promotion","[+3 Culture] from every [Force Temple]","Only available <after adopting [Adepts Complete]>"],
 		"priorities": {
             "Neutral": 20,
             "Cultural": 80,
@@ -530,7 +530,7 @@
 	{
         "name": "Dominators",
         "era": "Level 3",
-		"uniques": ["[+2 Production] [in all cities]","[+1 Production] from every [Extractor]","Only available <after adopting [Army Upgrading]>"],
+		"uniques": ["[+2 Production] [in all cities]","[+1 Production] from every [Extractor]","Only available <after adopting [Conquerors Complete]>"],
 		"priorities": {
             "Neutral": 20,
             "Cultural": 0,
@@ -581,7 +581,7 @@
 	{
         "name": "Free Agents",
         "era": "Level 3",
-        "uniques": ["[+1 Food, +2 Gold, +1 Science, +1 Culture] [in all cities]","Only available <after adopting [Prime Terrain]>"],
+        "uniques": ["[+1 Food, +2 Gold, +1 Science, +1 Culture] [in all cities]","Only available <after adopting [Explorers Complete]>"],
 		"priorities": {
             "Neutral": 30,
             "Cultural": 10,

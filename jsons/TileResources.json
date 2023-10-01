@@ -258,7 +258,7 @@
 		"name": "Synthetics",
 		"gold": 2,
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert"],
 		"improvement": "Trade Point",
 		"improvementStats": {"gold": 2},
 		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
@@ -304,7 +304,7 @@
 	{
 		"name": "Cryogen",
 		"production": 1,
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
 		"resourceType": "Luxury",
 		"improvement": "Trade Point",
 		"improvementStats": {"production": 1},

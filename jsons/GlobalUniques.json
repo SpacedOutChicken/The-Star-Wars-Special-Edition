@@ -1,23 +1,30 @@
 {
     "name": "Global uniques", 
     "uniques": [
-		"May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([250])",
-		"May not generate great prophet equivalents naturally",
-
 		"[-50]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-5] Happiness>",
         "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
 
-		"[+1] Unit Supply per [2] population [in all cities]",
 		"[+1 Happiness] [in all cities connected to capital]",
 		"[+25]% [Production] [in all cities connected to capital]",
 		"[+50]% [Gold] [in all cities connected to capital]",
 
-        "Rebel units may spawn <when below [-1] Happiness>",
+        "Rebel units may spawn <when below [-5] Happiness>",
 
         "[-1] Sight <for [Embarked] units>",
 
-        "Aircraft"
+        "[-50]% Faith cost of generating Great Prophet equivalents",
+        "May buy [Jedi] units with [Faith] for [2] times their normal Production cost",
+
+        "Aircraft",
+        "Special",
+        "Infantry",
+        "Armor",
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Level 4",
+        "Level 5"
     ]
 }

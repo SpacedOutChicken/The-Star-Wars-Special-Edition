@@ -43,7 +43,7 @@
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Level 5","Infantry","[+125]% Strength <vs [Jedi] units>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
+		"uniques": ["Level 5","[+125]% Strength <vs [Jedi] units>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
 		"promotions": ["Hero","Jetpack","Payday"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
@@ -163,7 +163,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 48,
-		"uniques": ["Level 1","Infantry","Founds a new city", "Requires at least [2] population"],
+		"uniques": ["Level 1","Founds a new city", "Requires at least [2] population"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Founder",
@@ -173,7 +173,7 @@
 		"name": "Droid",
 		"unitType": "Civilian",
 		"cost": 24,
-		"uniques": ["Level 1","Infantry","Ignores terrain cost","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
+		"uniques": ["Level 1","Ignores terrain cost","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
 		"movement": 2,
 		"civilopediaText": [
 			{
@@ -189,7 +189,7 @@
 		"strength": 10,
 		"upgradesTo": "Scout Trooper",
 		"obsoleteTech" : "Power Cores",
-		"uniques": ["Level 1","Infantry"],
+		"uniques": ["Level 1"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -205,8 +205,8 @@
 		"upgradesTo": "Trooper",
 		"requiredResource": "Carbon",
 		"obsoleteTech": "Battle Training",
-		"requiredTech": "Military",
-		"uniques": ["Level 1","Infantry"],
+		"requiredTech": "Military Tech",
+		"uniques": ["Level 1"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -224,8 +224,8 @@
 		"requiredResource": "Carbon",
 		"upgradesTo": "Ranged Trooper",
 		"obsoleteTech": "Battle Training",
-		"requiredTech": "Ranged Trooper",
-		"uniques": ["Level 1","Infantry"],
+		"requiredTech": "Ranged Troopers",
+		"uniques": ["Level 1"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -235,14 +235,14 @@
 	{
 		"name": "Mounted Recruit",
 		"unitType": "Mounted",
-		"movement": 3,
+		"movement": 4,
 		"strength": 8,
 		"cost": 12,
 		"requiredResource": "Carbon",
-		"requiredTech": "Mounted Trooper",
+		"requiredTech": "Mounted Troopers",
 		"upgradesTo": "Mounted Trooper",
 		"obsoleteTech": "Battle Training",
-		"uniques": ["Level 1","Infantry","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"uniques": ["Level 1","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>","Unable to capture cities"],
 		"attackSound": "elechit",
 		"civilopediaText": [
 			{
@@ -257,7 +257,7 @@
 		"movement": 2,
 		"strength": 14,
 		"requiredTech" : "Power Cores",
-		"uniques": ["Level 2","Infantry"],
+		"uniques": ["Level 2"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -292,7 +292,7 @@
 		"upgradesTo": "Battle Trooper",
 		"requiredTech": "Battle Training",
 		"obsoleteTech": "Advanced Military",
-		"uniques": ["Level 2","Infantry"],
+		"uniques": ["Level 2"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -309,7 +309,7 @@
 		"upgradesTo": "Shock Trooper",
 		"requiredTech": "Battle Training",
 		"obsoleteTech": "Advanced Military",
-		"uniques": ["Level 2","Infantry","[+75]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 2","[+75]% Strength <vs [Armor] units> <when attacking>"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -328,7 +328,7 @@
 		"upgradesTo": "Heavy Ranged",
 		"requiredTech": "Battle Training",
 		"obsoleteTech": "Advanced Military",
-		"uniques": ["Level 2","Infantry"],
+		"uniques": ["Level 2"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -338,14 +338,14 @@
 	{
 		"name": "Mounted Trooper",
 		"unitType": "Mounted",
-		"movement": 3,
+		"movement": 4,
 		"strength": 12,
 		"cost": 24,
 		"requiredResource": "Carbon",
 		"upgradesTo": "Heavy Mounted",
 		"requiredTech": "Battle Training",
 		"obsoleteTech": "Advanced Military",
-		"uniques": ["Level 2","Infantry","Infantry","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"uniques": ["Level 2","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>","Unable to capture cities"],
 		"attackSound": "elechit",
 		"civilopediaText": [
 			{
@@ -362,7 +362,7 @@
 		"requiredTech": "Mechs",
 		"upgradesTo": "Heavy Mech",
 		"obsoleteTech": "Heavy Assault",
-		"uniques": ["Level 2","Armor","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Level 2","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{
@@ -381,7 +381,7 @@
 		"requiredTech": "Mechs",
 		"upgradesTo": "Pummel",
 		"obsoleteTech": "Advanced Military",
-		"uniques": ["Level 2","Armor","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 2","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{
@@ -394,7 +394,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","Infantry","[-25]% Strength for enemy [Military] units in adjacent [All] tiles","Uncapturable"],
+		"uniques": ["Level 2","[-25]% Strength for enemy [Military] units in adjacent [All] tiles","Uncapturable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Strategist",
@@ -406,7 +406,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","Infantry","All adjacent units heal [+10] HP when healing","Uncapturable"],
+		"uniques": ["Level 2","All adjacent units heal [+10] HP when healing","Uncapturable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Medic",
@@ -418,7 +418,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","Infantry","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
+		"uniques": ["Level 2","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Infiltrator",
@@ -452,7 +452,7 @@
 		"upgradesTo": "Advanced Trooper",
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
-		"uniques": ["Level 3","Infantry"],
+		"uniques": ["Level 3"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -469,7 +469,7 @@
 		"upgradesTo": "Rocket Trooper",
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
-		"uniques": ["Level 3","Infantry","[+75]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","[+75]% Strength <vs [Armor] units> <when attacking>"],
 		"attackSound": "rocket",
 		"civilopediaText": [
 			{
@@ -487,7 +487,7 @@
 		"upgradesTo": "Repeater Trooper",
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
-		"uniques": ["Level 3","Infantry"],
+		"uniques": ["Level 3"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -497,14 +497,14 @@
 	{
 		"name": "Heavy Mounted",
 		"unitType": "Mounted",
-		"movement": 3,
+		"movement": 4,
 		"strength": 16,
 		"cost": 64,
 		"requiredResource": "Carbon",
 		"upgradesTo": "Advanced Mounted",
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
-		"uniques": ["Level 3","Infantry","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"uniques": ["Level 3","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>","Unable to capture cities"],
 		"attackSound": "elechit",
 		"civilopediaText": [
 			{
@@ -522,7 +522,7 @@
 		"requiredTech": "Advanced Military",
 		"upgradesTo": "Mobile Cannon",
 		"obsoleteTech": "Military Fleet",
-		"uniques": ["Level 3","Armor","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 3","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{
@@ -539,7 +539,7 @@
 		"requiredTech": "Heavy Assault",
 		"upgradesTo": "Advanced Mech",
 		"obsoleteTech": "Military Fleet",
-		"uniques": ["Level 3","Armor","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Level 3","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{
@@ -557,7 +557,7 @@
 		"requiredTech": "Heavy Assault",
 		"upgradesTo": "Advanced Anti-Air",
 		"obsoleteTech": "Military Fleet",
-		"uniques": ["Level 3","Armor","Unable to capture cities","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Air] units>","[+50]% Strength <vs [Bomber] units>"],
+		"uniques": ["Level 3","Unable to capture cities","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Aircraft] units>","[+50]% Strength <vs [Bomber] units>"],
 		"attackSound": "turrethit",
 		"civilopediaText": [
 			{
@@ -576,7 +576,7 @@
 		"requiredTech": "Heavy Assault",
 		"upgradesTo": "Advanced Destroyer",
 		"obsoleteTech": "Military Fleet",
-		"uniques": ["Level 3","Armor","[+200]% Strength <vs [Armor] units>"],
+		"uniques": ["Level 3","[+200]% Strength <vs [Armor] units>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{
@@ -584,7 +584,7 @@
 				"imageSize": 256 }]
 	},
 	{
-		"name": "Fighter",
+		"name": "Standard Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 30,
@@ -596,15 +596,15 @@
 		"requiredTech": "Spaceports",
 		"upgradesTo": "Advanced Fighter",
 		"obsoleteTech": "Orbital Strikes",
-		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Fighter",
+				"extraImage": "TileSets/FantasyHex/Units/Standard Fighter",
 				"imageSize": 256 }]
 	},
 	{
-		"name": "Bomber",
+		"name": "Standard Bomber",
 		"unitType": "Bomber",
 		"movement": 2,
 		"strength": 30,
@@ -619,7 +619,7 @@
 		"attackSound": "laserhit",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Bomber",
+				"extraImage": "TileSets/FantasyHex/Units/Standard Bomber",
 				"imageSize": 256 }]
 	},
 	{
@@ -635,7 +635,7 @@
 		"requiredTech": "Spaceports",
 		"upgradesTo": "Advanced Interceptor",
 		"obsoleteTech": "Orbital Strikes",
-		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
 			{
@@ -668,7 +668,7 @@
 		"cost": 120	,
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry"],
+		"uniques": ["Level 4"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -683,7 +683,7 @@
 		"cost": 150,
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry","[+75]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 4","[+75]% Strength <vs [Armor] units> <when attacking>"],
 		"attackSound": "rocket",
 		"civilopediaText": [
 			{
@@ -699,7 +699,7 @@
 		"cost": 120,
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry"],
+		"uniques": ["Level 4"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -709,12 +709,12 @@
 	{
 		"name": "Advanced Mounted",
 		"unitType": "Mounted",
-		"movement": 3,
+		"movement": 4,
 		"strength": 23,
 		"cost": 120,
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"uniques": ["Level 4","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>","Unable to capture cities"],
 		"attackSound": "elechit",
 		"civilopediaText": [
 			{
@@ -730,7 +730,7 @@
 		"cost": 240,
 		"requiredResource": "Battery",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","Armor","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 4","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{
@@ -745,7 +745,7 @@
 		"cost": 300,
 		"requiredResource": "Battery",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","Armor","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Level 4","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{
@@ -761,7 +761,7 @@
 		"cost": 240,
 		"requiredResource": "Battery",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","Armor","Unable to capture cities","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Air] units>","[+50]% Strength <vs [Bomber] units>"],
+		"uniques": ["Level 4","Unable to capture cities","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Aircraft] units>","[+50]% Strength <vs [Bomber] units>"],
 		"attackSound": "turrethit",
 		"civilopediaText": [
 			{
@@ -778,7 +778,7 @@
 		"cost": 270,
 		"requiredResource": "Battery",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","Armor","Unable to capture cities","[+200]% Strength <vs [Armor] units>"],
+		"uniques": ["Level 4","Unable to capture cities","[+200]% Strength <vs [Armor] units>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{
@@ -796,7 +796,7 @@
 		"cost": 300,
 		"requiredResource": "Engine",
 		"requiredTech": "Orbital Strikes",
-		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
 			{
@@ -832,7 +832,7 @@
 		"cost": 300,
 		"requiredResource": "Engine",
 		"requiredTech": "Orbital Strikes",
-		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
 			{
@@ -842,14 +842,14 @@
 	{
 		"name": "Star Fleet",
 		"unitType": "Starship",
-		"movement": 2,
+		"movement": 6,
 		"range": 2,
 		"strength": 100,
 		"rangedStrength": 50,
 		"cost": 600,
 		"requiredResource": "Reactor",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","[+100]% Strength <vs [Orbital Strike] units>","Can carry [2] [Aircraft] units","Can carry [1] [Orbital Strike] units","Never appears as a Barbarian unit"],
+		"uniques": ["Level 4","[+100]% Strength <vs [Orbital Strike] units>","Can carry [2] [Aircraft] units","Can carry [1] [Orbital] units","Never appears as a Barbarian unit"],
 		"attackSound": "fleethit",
 		"civilopediaText": [
 			{
@@ -857,8 +857,29 @@
 				"imageSize": 512 }]
 	},
 	{
+		"name": "Firespray Attack Craft",
+		"unitType": "Starship",
+		"uniqueTo": "Mandalorians",
+		"replaces": "Star Fleet",
+		"movement": 8,
+		"range": 2,
+		"strength": 100,
+		"rangedStrength": 50,
+		"cost": 600,
+		"requiredResource": "Reactor",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[+100]% Strength <vs [Orbital Strike] units>","Can carry [2] [Aircraft] units","Can carry [1] [Orbital] units","Never appears as a Barbarian unit","May withdraw before melee ([75]%)"],
+		"attackSound": "fleethit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Firespray Attack Craft",
+				"imageSize": 512 },
+			{"text": "The Firespray Attack Craft is faster and more maneuverable than most starships while still packing impressive firepower."}
+			]
+	},
+	{
 		"name": "Orbital Strike",
-		"unitType": "Orbital Strike",
+		"unitType": "Orbital",
 		"movement": 1,
 		"strength": 175,
 		"rangedStrength": 175,
@@ -866,7 +887,7 @@
 		"cost": 600,
 		"requiredResource": "Reactor",
 		"requiredTech": "Orbital Strikes",
-		"uniques": ["Level 4","Nuclear weapon of Strength [1]", "Blast radius [2]","Self-destructs when attacking"],
+		"uniques": ["Level 4","Nuclear weapon of Strength [1]", "Blast radius [2]"],
 		"attackSound": "nuke"
 	},
 	//Civ Exlusive
@@ -902,7 +923,7 @@
 		"upgradesTo": "Battle Trooper",
 		"requiredTech": "Battle Training",
 		"obsoleteTech": "Advanced Military",
-		"uniques": ["Level 2","Infantry"],
+		"uniques": ["Level 2"],
 		"attackSound": "blasterhit",
 		"promotions": ["Rebel Spirit"],
 		"civilopediaText": [
@@ -933,7 +954,7 @@
 	{
 		"name": "X-Wing",
 		"unitType": "Fighter",
-		"replaces": "Fighter",
+		"replaces": "Standard Fighter",
 		"uniqueTo": "Rebel Alliance",
 		"movement": 1,
 		"strength": 38,
@@ -945,7 +966,7 @@
 		"requiredTech": "Spaceports",
 		"upgradesTo": "Advanced Fighter",
 		"obsoleteTech": "Orbital Strikes",
-		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/X-Wing",
@@ -966,7 +987,7 @@
 		"cost": 300,
 		"requiredResource": "Engine",
 		"requiredTech": "Orbital Strikes",
-		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"promotions": ["Air Repair"],
 		"civilopediaText": [
@@ -990,7 +1011,7 @@
 		"requiredTech": "Spaceports",
 		"upgradesTo": "Advanced Interceptor",
 		"obsoleteTech": "Orbital Strikes",
-		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Y-Wing",
@@ -1011,7 +1032,7 @@
 		"cost": 300,
 		"requiredResource": "Engine",
 		"requiredTech": "Orbital Strikes",
-		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"promotions": ["Air Repair"],
 		"civilopediaText": [
@@ -1029,7 +1050,7 @@
 		"range": 2,
 		"strength": 7,
 		"rangedStrength": 12,
-		"uniques": ["Level 1","Infantry","[+1] Sight","Ignores terrain cost","Can pass through impassable tiles","May travel on Water tiles without embarking"],
+		"uniques": ["Level 1","[+1] Sight","Can pass through impassable tiles","Ignores terrain cost","No defensive terrain bonus","Ignores Zone of Control","May travel on Water tiles without embarking","Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Probe Droid",
@@ -1048,8 +1069,8 @@
 		"upgradesTo": "Trooper",
 		"requiredResource": "Carbon",
 		"obsoleteTech": "Battle Training",
-		"requiredTech": "Military",
-		"uniques": ["Level 1","Infantry"],
+		"requiredTech": "Military Tech",
+		"uniques": ["Level 1"],
 		"attackSound": "blasterhit",
 		"promotions": ["Stormtrooper Armor"],
 		"civilopediaText": [
@@ -1088,7 +1109,7 @@
 		"cost": 160,
 		"requiredResource": "Battery",
 		"requiredTech": "Heavy Assault",
-		"uniques": ["Level 3","Armor","Unable to capture cities","[+50]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Level 3","Unable to capture cities","[+50]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/AT-ST",
@@ -1107,7 +1128,7 @@
 		"cost": 600,
 		"requiredResource": "Battery",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","Armor","Unable to capture cities","[50]% chance to intercept air attacks","[+50]% Strength <vs [Siege] units> <when defending>"],
+		"uniques": ["Level 4","Unable to capture cities","[50]% chance to intercept air attacks","[+50]% Strength <vs [Siege] units> <when defending>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/AT-AT",
@@ -1118,7 +1139,7 @@
 	{
 		"name": "TIE Fighter",
 		"unitType": "Fighter",
-		"replaces": "Fighter",
+		"replaces": "Standard Fighter",
 		"uniqueTo": "Galactic Empire",
 		"movement": 1,
 		"strength": 22,
@@ -1129,7 +1150,7 @@
 		"requiredTech": "Spaceports",
 		"upgradesTo": "Advanced Fighter",
 		"obsoleteTech": "Orbital Strikes",
-		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/TIE Fighter",
@@ -1140,7 +1161,7 @@
 	{
 		"name": "TIE Bomber",
 		"unitType": "Bomber",
-		"replaces": "Bomber",
+		"replaces": "Standard Bomber",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
 		"strength": 22,
@@ -1166,13 +1187,13 @@
 		"strength": 45,
 		"cost": 210,
 		"requiredTech": "Fortress",
-		"uniques": ["Level 4","Infantry","[+100]% Strength <vs [Jedi] units>","Earn [50]% of killed [Military] unit's [Cost] as [Gold]","Uncapturable"],
+		"uniques": ["Level 4","[+100]% Strength <vs [Jedi] units>","Earn [50]% of killed [Military] unit's [Cost] as [Gold]","Uncapturable"],
 		"attackSound": "blasterhit",
 		"promotions": ["Jetpack"],
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Bounty Hunter",
 				"imageSize": 256 },
-			{"text": "Unique Smuggler Unit that is incredibly effective against Jedi, cannot be captured, and grants gold when it defeats an Enemy."}
+			{"text": "Unique Smuggler Unit that is incredibly effective against Jedi, cannot be captured, and grants credits when it defeats an Enemy."}
 		]
 	},
 	{
@@ -1187,7 +1208,7 @@
 		"upgradesTo": "Rocket Trooper",
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
-		"uniques": ["Level 3","Infantry"],
+		"uniques": ["Level 3"],
 		"attackSound": "rocket",
 		"promotions": ["Thermal Detonator"],
 		"civilopediaText": [
@@ -1207,7 +1228,7 @@
 		"cost": 120,
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 4","[+50]% Strength <vs [Armor] units> <when attacking>"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/IG-Trooper",
@@ -1220,12 +1241,12 @@
 		"unitType": "Mounted",
 		"replaces": "Advanced Mounted",
 		"uniqueTo": "Smugglers",
-		"movement": 3,
+		"movement": 4,
 		"strength": 23,
 		"cost": 120,
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry","[+50]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"uniques": ["Level 4","[+50]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>","Unable to capture cities"],
 		"attackSound": "elechit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Speeder Gang",
@@ -1236,14 +1257,14 @@
 	{
 		"name": "Smuggling Droid",
 		"unitType": "Ranged Battler",
-		"requiredTech": "Roads",
+		"requiredTech": "Mechs",
 		"uniqueTo": "Smugglers",
 		"movement": 2,
 		"range": 2,
 		"strength": 7,
 		"rangedStrength": 12,
 		"cost": 48,
-		"uniques": ["Level 2","Infantry","Ignores terrain cost","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
+		"uniques": ["Level 2","Ignores terrain cost","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Smuggling Droid",
@@ -1262,7 +1283,7 @@
 		"rangedStrength": 12,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","Infantry","[+50]% Strength <during the [Level 4]>","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
+		"uniques": ["Level 2","[+50]% Strength <during the [Level 4]>","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Contrabandist",
@@ -1281,7 +1302,7 @@
 		"rangedStrength": 12,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","Infantry","[+50]% Strength <during the [Level 4]>","All adjacent units heal [+10] HP when healing","Uncapturable"],
+		"uniques": ["Level 2","[+50]% Strength <during the [Level 4]>","All adjacent units heal [+10] HP when healing","Uncapturable"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Field Supplier",
@@ -1297,7 +1318,7 @@
 		"strength": 45,
 		"cost": 210,
 		"requiredTech": "Fortress",
-		"uniques": ["Level 4","Infantry","[+25]% Strength <vs [Battler] units>","[+100]% Strength <vs cities>","Uncapturable"],
+		"uniques": ["Level 4","[+25]% Strength <vs [Battler] units>","[+100]% Strength <vs cities>","Uncapturable"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Republic Commando",
@@ -1316,8 +1337,8 @@
 		"upgradesTo": "Trooper",
 		"requiredResource": "Carbon",
 		"obsoleteTech": "Battle Training",
-		"requiredTech": "Military",
-		"uniques": ["Level 1","Infantry"],
+		"requiredTech": "Military Tech",
+		"uniques": ["Level 1"],
 		"attackSound": "blasterhit",
 		"promotions": ["Kaminoan Training"],
 		"civilopediaText": [
@@ -1339,8 +1360,8 @@
 		"requiredResource": "Carbon",
 		"upgradesTo": "Ranged Trooper",
 		"obsoleteTech": "Battle Training",
-		"requiredTech": "Ranged Trooper",
-		"uniques": ["Level 1","Infantry"],
+		"requiredTech": "Ranged Troopers",
+		"uniques": ["Level 1"],
 		"attackSound": "blasterhit",
 		"promotions": ["Kaminoan Training"],
 		"civilopediaText": [
@@ -1381,7 +1402,7 @@
 		"cost": 300,
 		"requiredResource": "Engine",
 		"requiredTech": "Orbital Strikes",
-		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>","Consumes [1] [Nova]"],
+		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Aircraft] units>","Consumes [1] [Nova]"],
 		"attackSound": "laserhit",
 		"promotions": ["Evasion"],
 		"civilopediaText": [
@@ -1403,7 +1424,7 @@
 		"cost": 300,
 		"requiredResource": "Engine",
 		"requiredTech": "Orbital Strikes",
-		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"promotions": ["Kaminoan Training"],
 		"civilopediaText": [
@@ -1423,7 +1444,7 @@
 		"cost": 300,
 		"requiredResource": "Battery",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","Armor","Unable to capture cities","[100]% chance to intercept air attacks","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Level 4","Unable to capture cities","[100]% chance to intercept air attacks","[+10]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/AT-TE",
@@ -1442,7 +1463,7 @@
 		"rangedStrength": 40,
 		"cost": 210,
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry","Must set up to ranged attack","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <when defending>"],
+		"uniques": ["Level 4","Must set up to ranged attack","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <when defending>"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Droideka",
@@ -1458,7 +1479,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","Infantry","All adjacent units heal [+20] HP when healing","Uncapturable"],
+		"uniques": ["Level 2","All adjacent units heal [+20] HP when healing","Uncapturable"],
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Techmaster",
 				"imageSize": 256 },
@@ -1493,7 +1514,7 @@
 		"cost": 150,
 		"requiredResource": "Carbon",	
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry","[+30]% Strength <vs [Infantry] units> <when defending>"],
+		"uniques": ["Level 4","[+30]% Strength <vs [Infantry] units> <when defending>"],
 		"attackSound": "rocket",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/B2-Super Droid",
@@ -1511,7 +1532,7 @@
 		"cost": 160,
 		"requiredResource": "Battery",
 		"requiredTech": "Heavy Assault",
-		"uniques": ["Level 3","Armor","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Level 3","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"promotions": ["Light Armor"],
 		"civilopediaText": [
@@ -1530,7 +1551,7 @@
 		"cost": 300,
 		"requiredResource": "Battery",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","Armor","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>","Ignores terrain cost"],
+		"uniques": ["Level 4","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>","Ignores terrain cost"],
 		"attackSound": "heavyfire",
 		"promotions": ["Tactical Movement"],
 		"civilopediaText": [
@@ -1542,7 +1563,7 @@
 	{
 		"name": "Vulture Droid",
 		"unitType": "Fighter",
-		"replaces": "Fighter",
+		"replaces": "Standard Fighter",
 		"uniqueTo": "Separatists",
 		"movement": 1,
 		"strength": 30,
@@ -1554,7 +1575,7 @@
 		"requiredTech": "Spaceports",
 		"upgradesTo": "Advanced Fighter",
 		"obsoleteTech": "Orbital Strikes",
-		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"promotions": ["Evasion"],
 		"civilopediaText": [
@@ -1593,8 +1614,8 @@
 		"upgradesTo": "Trooper",
 		"requiredResource": "Carbon",
 		"obsoleteTech": "Battle Training",
-		"requiredTech": "Military",
-		"uniques": ["Level 1","Infantry"],
+		"requiredTech": "Military Tech",
+		"uniques": ["Level 1"],
 		"attackSound": "blasterhit",
 		"promotions": ["Order Guardian"],
 		"civilopediaText": [
@@ -1616,8 +1637,8 @@
 		"requiredResource": "Carbon",
 		"upgradesTo": "Ranged Trooper",
 		"obsoleteTech": "Battle Training",
-		"requiredTech": "Ranged Trooper",
-		"uniques": ["Level 1","Infantry"],
+		"requiredTech": "Ranged Troopers",
+		"uniques": ["Level 1"],
 		"attackSound": "blasterhit",
 		"promotions": ["Order Guardian"],
 		"civilopediaText": [
@@ -1656,7 +1677,7 @@
 		"cost": 120,
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry","[+25]% Strength <vs [Battler] units>"],
+		"uniques": ["Level 4","[+25]% Strength <vs [Battler] units>"],
 		"attackSound": "blasterhit",
 		"promotions": ["Order Guardian"],
 		"civilopediaText": [
@@ -1698,7 +1719,7 @@
 		"cost": 300,
 		"requiredResource": "Engine",
 		"requiredTech": "Orbital Strikes",
-		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>","Consumes [1] [Nova]"],
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Aircraft] units>","[+50]% Strength <vs [Infantry] units>","Consumes [1] [Nova]"],
 		"attackSound": "laserhit",
 		"promotions": ["Force Concentration"],
 		"civilopediaText": [
@@ -1740,8 +1761,8 @@
 		"requiredResource": "Carbon",
 		"upgradesTo": "Ranged Trooper",
 		"obsoleteTech": "Battle Training",
-		"requiredTech": "Ranged Trooper",
-		"uniques": ["Level 1","Infantry"],
+		"requiredTech": "Ranged Troopers",
+		"uniques": ["Level 1"],
 		"promotions": ["Energy Shield"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
@@ -1764,7 +1785,7 @@
 		"requiredTech": "Mechs",
 		"upgradesTo": "Pummel",
 		"obsoleteTech": "Advanced Military",
-		"uniques": ["Level 2","Armor","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"uniques": ["Level 2","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Assault Liner",
@@ -1777,14 +1798,14 @@
 		"unitType": "Mounted",
 		"replaces": "Heavy Mounted",
 		"uniqueTo": "Resistance",
-		"movement": 3,
+		"movement": 4,
 		"strength": 16,
 		"cost": 64,
 		"requiredResource": "Carbon",
 		"upgradesTo": "Advanced Mounted",
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
-		"uniques": ["Level 3","Infantry","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"uniques": ["Level 3","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>","Unable to capture cities"],
 		"attackSound": "elechit",
 		"promotions": ["Fusion Cutter I"],
 		"civilopediaText": [
@@ -1807,7 +1828,7 @@
 		"requiredTech": "Heavy Assault",
 		"upgradesTo": "Advanced Destroyer",
 		"obsoleteTech": "Military Fleet",
-		"uniques": ["Level 3","Armor","Unable to capture cities","[+100]% Strength <vs [Armor] units>"],
+		"uniques": ["Level 3","Unable to capture cities","[+100]% Strength <vs [Armor] units>"],
 		"attackSound": "heavyfire",
 		"promotions": ["Bunkerbuster"],
 		"civilopediaText": [
@@ -1828,7 +1849,7 @@
 		"upgradesTo": "Advanced Trooper",
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
-		"uniques": ["Level 3","Infantry"],
+		"uniques": ["Level 3"],
 		"attackSound": "blasterhit",
 		"promotions": ["Vanguard"],
 		"civilopediaText": [
@@ -1850,11 +1871,11 @@
 		"requiredTech": "Heavy Assault",
 		"upgradesTo": "Advanced Anti-Air",
 		"obsoleteTech": "Military Fleet",
-		"uniques": ["Level 3","Armor","Unable to capture cities","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Air] units>","[+50]% Strength <vs [Bomber] units>"],
+		"uniques": ["Level 3","Unable to capture cities","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Aircraft] units>","[+50]% Strength <vs [Bomber] units>"],
 		"attackSound": "turrethit",
 		"promotions": ["Reinforced Plating"],
 		"civilopediaText": [
-		{"extraImage": "TileSets/FantasyHex/Units/Vanguard",
+		{"extraImage": "TileSets/FantasyHex/Units/Mobile Turret",
 				"imageSize": 256 },
 			{"text": "The Resistance Anti-Air is more effective at defending. This Upgrade carries over to Advanced Anti-Air."}
 		]
@@ -1867,7 +1888,7 @@
 		"strength": 28,
 		"cost": 150,
 		"requiredTech": "Fortress",
-		"uniques": ["Level 4","Infantry","Ignores terrain cost","[+25]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Armor] units>"],
+		"uniques": ["Level 4","Ignores terrain cost","[+25]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Armor] units>"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Jet Trooper",
@@ -1887,7 +1908,7 @@
 		"upgradesTo": "Rocket Trooper",
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
-		"uniques": ["Level 3","Infantry"],
+		"uniques": ["Level 3"],
 		"attackSound": "rocket",
 		"promotions": ["Incendiary"],
 		"civilopediaText": [
@@ -1908,7 +1929,7 @@
 		"upgradesTo": "Battle Trooper",
 		"requiredTech": "Battle Training",
 		"obsoleteTech": "Advanced Military",
-		"uniques": ["Level 2","Infantry"],
+		"uniques": ["Level 2"],
 		"attackSound": "blasterhit",
 		"promotions": ["Indoctrination"],
 		"civilopediaText": [
@@ -1940,7 +1961,7 @@
 	{
 		"name": "FO TIE Fighter",
 		"unitType": "Fighter",
-		"replaces": "Fighter",
+		"replaces": "Standard Fighter",
 		"uniqueTo": "First Order",
 		"movement": 1,
 		"strength": 26,
@@ -1951,7 +1972,7 @@
 		"requiredTech": "Spaceports",
 		"upgradesTo": "Advanced Fighter",
 		"obsoleteTech": "Orbital Strikes",
-		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Aircraft] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/FO Tie Fighter",
@@ -1970,7 +1991,7 @@
 		"cost": 600,
 		"requiredResource": "Battery",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","Armor","Unable to capture cities","[75]% chance to intercept air attacks","[+25]% Strength <vs [Armor] units>"],
+		"uniques": ["Level 4","Unable to capture cities","[75]% chance to intercept air attacks","[+25]% Strength <vs [Armor] units>"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/AT-M6",
@@ -1986,7 +2007,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","Infantry","[-50]% Strength for enemy [Military] units in adjacent [All] tiles","Uncapturable"],
+		"uniques": ["Level 2","[-50]% Strength for enemy [Military] units in adjacent [All] tiles","Uncapturable"],
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Commander",
 				"imageSize": 256 },
@@ -2003,7 +2024,7 @@
 		"cost": 240,
 		"requiredResource": "Nova",
 		"requiredTech": "Fortress",
-		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+25]% Strength <vs [Infantry] units>","[+75]% Strength <vs [Air] units>"],
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+25]% Strength <vs [Infantry] units>","[+75]% Strength <vs [Aircraft] units>"],
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -2024,7 +2045,7 @@
 		"obsoleteTech" : "Power Cores",
 		"attackSound": "blasterhit",
 		"promotions": ["Passion"],
-		"uniques": ["Level 1","Infantry"],
+		"uniques": ["Level 1"],
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Cultist",
 				"imageSize": 256 },
@@ -2043,7 +2064,7 @@
 		"requiredTech": "Heavy Assault",
 		"upgradesTo": "Advanced Mech",
 		"obsoleteTech": "Military Fleet",
-		"uniques": ["Level 3","Armor","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Level 3","Unable to capture cities","[+10]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "heavyfire",
 		"promotions": ["Passion"],
 		"civilopediaText": [
@@ -2082,7 +2103,7 @@
 		"cost": 120,
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
-		"uniques": ["Level 4","Infantry"],
+		"uniques": ["Level 4"],
 		"attackSound": "blasterhit",
 		"promotions": ["Force Drain"],
 		"civilopediaText": [
@@ -2121,7 +2142,7 @@
 		"movement": 4,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","Infantry","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
+		"uniques": ["Level 2","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Double Agent",
 				"imageSize": 256 },
@@ -2159,7 +2180,7 @@
 	{
 	 "name": "Disciple",
 		"unitType": "Civilian",
-		"uniques": ["Level 1","Infantry","Can [Spread Religion] [1] times", "Can [Remove Foreign religions from your own cities] [1] times", "May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there", "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", "[-1] Sight", "Unbuildable","Religious Unit"],
+		"uniques": ["Level 1","Can [Spread Religion] [1] times", "Can [Remove Foreign religions from your own cities] [1] times", "May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there", "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", "[-1] Sight", "Unbuildable","Religious Unit"],
 		"movement": 4,
 		"religiousStrength": 1000,
 		"civilopediaText": [

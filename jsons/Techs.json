@@ -7,7 +7,7 @@
 		"wonderCost": 10,
 		"techs": [
 			{
-				"name": "Center Base",
+				"name": "Center Bases",
 				"row": 5,
 				"uniques": ["Starting tech","Enables conversion of city production to [Gold]","Enables Open Borders agreements","Enables embarkation for land units"]
 			}
@@ -23,17 +23,17 @@
 			{
 				"name": "Research",
 				"row": 2,
-				"prerequisites": ["Center Base"]
+				"prerequisites": ["Center Bases"]
 			},
 			{
 				"name": "Expansion",
 				"row": 5,
-				"prerequisites": ["Center Base"]
+				"prerequisites": ["Center Bases"]
 			},
 			{
-				"name": "Military",
+				"name": "Military Tech",
 				"row": 8,
-				"prerequisites": ["Center Base"]
+				"prerequisites": ["Center Bases"]
 			}
 		]
 	},
@@ -60,19 +60,19 @@
 				"prerequisites": ["Expansion"]
 			},
 			{
-				"name": "Trade",
+				"name": "Planetary Trade",
 				"row": 6,
 				"prerequisites": ["Expansion"]
 			},
 			{
-				"name": "Ranged Trooper",
+				"name": "Ranged Troopers",
 				"row": 7,
-				"prerequisites": ["Military"]
+				"prerequisites": ["Military Tech"]
 			},
 			{
-				"name": "Mounted Trooper",
+				"name": "Mounted Troopers",
 				"row": 9,
-				"prerequisites": ["Military"]
+				"prerequisites": ["Military Tech"]
 			}
 		]
 	},
@@ -92,12 +92,12 @@
 				"name": "Power Cores",
 				"row": 5,
 				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
-				"prerequisites": ["Supplies","Trade"]
+				"prerequisites": ["Supplies","Planetary Trade"]
 			},
 			{
 				"name": "Battle Training",
 				"row": 8,
-				"prerequisites": ["Ranged Trooper","Mounted Trooper"]
+				"prerequisites": ["Ranged Troopers","Mounted Troopers"]
 			}
 		]
 	},
@@ -122,11 +122,6 @@
 				"name": "Outposts",
 				"row": 4,
 				"prerequisites": ["Power Cores","Processing"]
-			},
-			{
-				"name": "Roads",
-				"row": 5,
-				"prerequisites": ["Power Cores"]
 			},
 			{
 				"name": "Defensive Buildings",
@@ -160,7 +155,7 @@
 			{
 				"name": "Advanced Energy",
 				"row": 5,
-				"prerequisites": ["Outposts","Roads","Defensive Buildings"]
+				"prerequisites": ["Outposts","Defensive Buildings"]
 			},
 			{
 				"name": "Advanced Military",
@@ -180,7 +175,7 @@
 				"name": "Joint Development",
 				"row": 1,
 				"prerequisites": ["Specialism"],
-				"uniques": ["Enables adjacency bonuses on Great Improvement"]
+				"uniques": ["[+100]% Yield from every [Improvement]"]
 			},
 			{
 				"name": "Factories",

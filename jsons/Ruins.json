@@ -24,7 +24,7 @@
     {
         "name": "your exploring unit receives training",
         "notification": "Our unit has found combat training materials in the supply drop!",
-        "uniques": ["This Unit gains [10] XP", "Only available <after [10] turns>"]
+        "uniques": ["This Unit gains [10] XP"]
     },
     {
         "name": "population reinforcements",
@@ -54,9 +54,15 @@
         "uniques": ["From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"]
     },
     {
-        "name": "an ancient prophecy",
-        "notification": "We have receive records of an ancient prophecy in the supply drop, greatly increasing our spiritual connection! (+[faithAmount] Will)",
+        "name": "religious instruction",
+        "notification": "We have received religious instruction in the supply drop, increasing our spiritual connection! (+[faithAmount] Will)",
         "uniques": ["Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>"],
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "an ancient prophecy",
+        "notification": "We have received records of an ancient prophecy in the supply drop, greatly increasing our spiritual connection! (+[faithAmount] Will)",
+        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for [33]% of a Great Prophet", "Hidden after generating a Great Prophet", "Only available <after founding a Pantheon>"],
 		"color": "#CDDDF4"
     }
 ]

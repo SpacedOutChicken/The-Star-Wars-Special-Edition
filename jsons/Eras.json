@@ -5,6 +5,7 @@
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingSettlerUnit": "Founder",
         "startingWorkerCount": 0,
+        "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Scout Recruit",
         "settlerPopulation": 1,
@@ -19,6 +20,7 @@
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
 		"startingSettlerUnit": "Founder",
         "startingWorkerCount": 0,
+        "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 2,
         "startingMilitaryUnit": "Scout Trooper",
         "settlerPopulation": 1,
@@ -33,13 +35,15 @@
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
 		"startingSettlerUnit": "Founder",
         "startingWorkerCount": 0,
+        "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Scout Trooper",
         "settlerPopulation": 1,
-        "baseUnitBuyCost": 200,
+        "baseUnitBuyCost": 300,
         "embarkDefense": 17,
         "startPercent": 30,
-        "iconRGB": [0, 150, 0]
+        "iconRGB": [0, 150, 0],
+        "uniques": ["May not generate great prophet equivalents naturally","May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([100])"]
     },
 	{
         "name": "Level 4",
@@ -47,26 +51,30 @@
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
 		"startingSettlerUnit": "Founder",
         "startingWorkerCount": 0,
+        "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Scout Trooper",
         "settlerPopulation": 1,
-        "baseUnitBuyCost": 200,
+        "baseUnitBuyCost": 400,
         "embarkDefense": 23,
         "startPercent": 45,
-        "iconRGB": [220, 20, 60]
+        "iconRGB": [220, 20, 60],
+        "uniques": ["May not generate great prophet equivalents naturally","May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([100])"]
     },
 	{
         "name": "Level 5",
         "researchAgreementCost": 500,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
 		"startingSettlerUnit": "Founder",
-        "startingWorkerCount": 0,
+        "startingWorkerCount": 1,
+        "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Scout Trooper",
         "settlerPopulation": 1,
-        "baseUnitBuyCost": 200,
+        "baseUnitBuyCost": 500,
         "embarkDefense": 26,
         "startPercent": 60,
-        "iconRGB": [255, 20, 47]
+        "iconRGB": [255, 20, 47],
+        "uniques": ["May not generate great prophet equivalents naturally","May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([100])"]
     }
 ]

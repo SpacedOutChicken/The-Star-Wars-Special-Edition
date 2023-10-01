@@ -15,7 +15,7 @@
 		"preferredVictoryType": "Cultural",
 		
 
-		"startIntroPart1": "We all have our missions, yet the Force still finds a way to bind us together. I'l try to stay close, but for now, let's settle a base around here.",
+		"startIntroPart1": "We all have our missions, yet the Force still finds a way to bind us together. I'll try to stay close, but for now, let's settle a base around here.",
 		"startIntroPart2": "Dangers lurk around every corner, so be careful. Good luck.",
 
 		"declaringWar": "You're leaving behind a trail of chaos and destruction, I have to stop you.",
@@ -83,9 +83,9 @@
 		"startIntroPart2": "Since you offered, you will be in charge of my trade routes here. I expect to hear good news soon... For your own good.",
 
 		"declaringWar": "It appears there are many who want you dead. And so you will be.",
-		"attacked": "No one double crosses Jabba and lives.",
+		"attacked": "No one double-crosses Jabba and lives.",
 		"defeated": "Fool! At least with me the underworld was under control, but soon one worse than me shall rise",
-		"introduction": "Looking to spend a few Credits? I'l make it worth your while.",
+		"introduction": "Looking to spend a few Credits? I'll make it worth your while.",
 
 		"neutralHello": "Come to me with a deal?",
 		"hateHello": "You are hard to kill.",
@@ -146,7 +146,7 @@
 		"declaringWar": "Your weapons, please. Don't want to make a mess in front of the Chancellor.",
 		"attacked": "I've been looking forward to this.",
 		"defeated": "Aghk!",
-		"introduction": "Twice the pride, Double the Fall",
+		"introduction": "Twice the pride, double the fall",
 
 		"neutralHello": "You have something for me?",
 		"hateHello": "My patience is running out.",
