@@ -10,7 +10,7 @@
 		"strength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Lightsaber","Return of the Jedi"],
+		"promotions": ["Heroism","Lightsaber","Return of the Jedi"],
 		"attackSound": "lshit",
 		"civilopediaText": [
 			{
@@ -27,7 +27,7 @@
 		"strength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Lightsaber","Merciless"],
+		"promotions": ["Heroism","Lightsaber","Merciless"],
 		"attackSound": "lshit",
 		"civilopediaText": [
 			{
@@ -44,7 +44,7 @@
 		"strength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","[+125]% Strength <vs [Jedi] units>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Jetpack","Payday"],
+		"promotions": ["Heroism","Jetpack","Payday"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 			{
@@ -61,7 +61,7 @@
 		"strength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Lightsaber","Defensive Stance"],
+		"promotions": ["Heroism","Lightsaber","Defensive Stance"],
 		"attackSound": "lshit",
 		"civilopediaText": [
 			{
@@ -78,7 +78,7 @@
 		"strength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Lightsaber","Swordplay"],
+		"promotions": ["Heroism","Lightsaber","Swordplay"],
 		"attackSound": "lshit",
 		"civilopediaText": [
 			{
@@ -97,7 +97,7 @@
 		"rangedStrength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Force Lightning","Wisdom"],
+		"promotions": ["Heroism","Force Lightning","Wisdom"],
 		"attackSound": "lshit",
 		"civilopediaText": [
 			{
@@ -114,7 +114,7 @@
 		"strength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Lightsaber","Force Healing"],
+		"promotions": ["Heroism","Lightsaber","Force Healing"],
 		"attackSound": "lshit",
 		"civilopediaText": [
 			{
@@ -131,7 +131,7 @@
 		"strength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Lightsaber","Scarred"],
+		"promotions": ["Heroism","Lightsaber","Scarred"],
 		"attackSound": "lshit",
 		"civilopediaText": [
 			{
@@ -150,7 +150,7 @@
 		"rangedStrength": 80,
 		"interceptRange": 2,
 		"uniques": ["Level 5","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Limited to [1] per Civilization","Only available <if [Altar of Heroes] is constructed>"],
-		"promotions": ["Hero","Force Lightning","Force Siphon"],
+		"promotions": ["Heroism","Force Lightning","Force Siphon"],
 		"attackSound": "elechit",
 		"civilopediaText": [
 			{
@@ -159,14 +159,14 @@
 	},
    //Level 1
     {
-		"name": "Founder",
+		"name": "Colonizer",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 48,
 		"uniques": ["Level 1","Founds a new city", "Requires at least [2] population"],
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Founder",
+				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
 				"imageSize": 256 }]
 	},
 	{
@@ -394,7 +394,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","[-25]% Strength for enemy [Military] units in adjacent [All] tiles","Uncapturable"],
+		"uniques": ["Level 2","[-25]% Strength for enemy [Military] units in adjacent [All] tiles","[+10]% Strength bonus for [Military] units within [1] tiles","Uncapturable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Strategist",
@@ -406,7 +406,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","All adjacent units heal [+10] HP when healing","Uncapturable"],
+		"uniques": ["Level 2","All adjacent units heal [+10] HP when healing","[+5]% Strength bonus for [Military] units within [1] tiles","Uncapturable"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Medic",
@@ -623,7 +623,7 @@
 				"imageSize": 256 }]
 	},
 	{
-		"name": "Interceptor",
+		"name": "Standard Interceptor",
 		"unitType": "Interceptor",
 		"movement": 1,
 		"strength": 30,
@@ -639,7 +639,7 @@
 		"attackSound": "laserhit",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Interceptor",
+				"extraImage": "TileSets/FantasyHex/Units/Standard Interceptor",
 				"imageSize": 256 }]
 	},
 	//Level 4
@@ -868,7 +868,7 @@
 		"cost": 600,
 		"requiredResource": "Reactor",
 		"requiredTech": "Military Fleet",
-		"uniques": ["Level 4","[+100]% Strength <vs [Orbital Strike] units>","Can carry [2] [Aircraft] units","Can carry [1] [Orbital] units","Never appears as a Barbarian unit","May withdraw before melee ([75]%)"],
+		"uniques": ["Level 4","[+100]% Strength <vs [Orbital Strike] units>","Can carry [2] [Aircraft] units","Can carry [1] [Orbital] units","May withdraw before melee ([75]%)"],
 		"attackSound": "fleethit",
 		"civilopediaText": [
 			{
@@ -999,7 +999,7 @@
 	{
 		"name": "Y-Wing",
 		"unitType": "Interceptor",
-		"replaces": "Interceptor",
+		"replaces": "Standard Interceptor",
 		"uniqueTo": "Rebel Alliance",
 		"movement": 1,
 		"strength": 38,
@@ -1283,7 +1283,7 @@
 		"rangedStrength": 12,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","[+50]% Strength <during the [Level 4]>","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
+		"uniques": ["Level 2","[+50]% Strength <starting from the [Level 4]>","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Contrabandist",
@@ -1302,7 +1302,7 @@
 		"rangedStrength": 12,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","[+50]% Strength <during the [Level 4]>","All adjacent units heal [+10] HP when healing","Uncapturable"],
+		"uniques": ["Level 2","[+50]% Strength <starting from the [Level 4]>","All adjacent units heal [+10] HP when healing","Uncapturable"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Field Supplier",
@@ -1479,7 +1479,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","All adjacent units heal [+20] HP when healing","Uncapturable"],
+		"uniques": ["Level 2","All adjacent units heal [+20] HP when healing","[+5]% Strength bonus for [Military] units within [1] tiles","Uncapturable"],
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Techmaster",
 				"imageSize": 256 },
@@ -2007,7 +2007,7 @@
 		"movement": 2,
 		"cost": 48,
 		"requiredTech": "Tacticians",
-		"uniques": ["Level 2","[-50]% Strength for enemy [Military] units in adjacent [All] tiles","Uncapturable"],
+		"uniques": ["Level 2","[-50]% Strength for enemy [Military] units in adjacent [All] tiles","[+10]% Strength bonus for [Military] units within [1] tiles","Uncapturable"],
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Commander",
 				"imageSize": 256 },
