@@ -22,7 +22,7 @@
 	{
         "name": "Mounted",
         "movementType": "Land",
-		"uniques": ["Infantry","Can pass through impassable tiles","Ignores terrain cost","No defensive terrain bonus","Ignores Zone of Control","May travel on Water tiles without embarking","Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river"]
+		"uniques": ["Infantry","Can pass through impassable tiles","Ignores terrain cost","No defensive terrain bonus","May travel on Water tiles without embarking","Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river"]
     },
 	{
         "name": "Jedi",

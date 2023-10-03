@@ -5,6 +5,10 @@
 		"uniques": ["[+20]% Strength <vs [Armor] units>","[+30]% Strength <vs cities>"]
 	},
 	{
+		"name": "Darksaber",
+		"uniques": ["[+20]% Strength <vs [Armor] units>","[+30]% Strength <vs cities>","[+10]% Strength <vs [Jedi] units>"]
+	}
+	{
 		"name": "Electrostaff",
 		"uniques": ["[+20]% Strength <vs [Infantry] units>","[+30]% Strength <vs [Armor] units>"]
 	},
@@ -15,10 +19,6 @@
 	{
 		"name": "Force Strength",
 		"uniques": ["May capture killed [Armor] units <with [75]% chance>"]
-	},
-	{
-		"name": "Bacta Tanks",
-		"uniques": ["[+30] HP when healing"]
 	},
 	{
 		"name": "Faith in the Force",
@@ -58,11 +58,11 @@
 	},
 	{
 		"name": "Jetpack",
-		"uniques": ["[+1] Movement","Ignores terrain cost"]
+		"uniques": ["[+1] Movement","Can pass through impassable tiles","Ignores terrain cost","May travel on Water tiles without embarking","Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river","May Paradrop up to [20] tiles from inside friendly territory"]
 	},
 	{
-		"name": "Hero",
-		"uniques": ["Heals [20] damage if it kills a unit","[+15]% Bonus for [Military] units in 2 tile radius","[+100]% XP gained from combat","Can move after attacking","Uncapturable"]
+		"name": "Heroism",
+		"uniques": ["Heals [20] damage if it kills a unit","[+15]% Strength bonus for [Military] units within [2] tiles","[+100]% XP gained from combat","Can move after attacking","Uncapturable"]
 	},
 	//Civ Exclusives
 	{
@@ -87,7 +87,7 @@
 	},
 	{
 		"name": "Force Perception",
-		"uniques": ["Can see invisible [Wounded] units","Can see over obstacles"]
+		"uniques": ["Can see invisible [non-air] units","Can see over obstacles"]
 	},
 	{
 		"name": "Bunkerbuster",
@@ -322,7 +322,7 @@
 	{
 		"name": "Rush Repairs",
 		"prerequisites": ["Turbo Engine"],
-		"uniques": ["[+10] HP when healing <in [Friendly Land] tiles>"],
+		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Mounted"]
 	},
 	{
@@ -437,13 +437,13 @@
 	{
 		"name": "Supply Refill",
 		"prerequisites": ["Dispersion Strike"],
-		"uniques": ["[+10] HP when healing <in [Friendly Land] tiles>"],
+		"uniques": ["May heal outside of friendly territory","[+10] HP when healing"],
 		"unitTypes": ["Ranged Battler","Mech","Siege"]
 	},
 	//Fighter
 	{
 		"name": "Air Combat I",
-		"uniques": ["[+40]% Damage when intercepting"],
+		"uniques": ["[+40]% Damage when intercepting","[+40]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter","Interceptor"]
 	},
 	{
@@ -454,7 +454,7 @@
 	{
 		"name": "Air Combat II",
 		"prerequisites": ["Air Combat I"],
-		"uniques": ["[+40]% Damage when intercepting"],
+		"uniques": ["[+40]% Damage when intercepting","[+40]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter","Interceptor"]
 	},
 	{
@@ -466,7 +466,7 @@
 	{
 		"name": "Air Combat III",
 		"prerequisites": ["Air Combat II"],
-		"uniques": ["[+40]% Damage when intercepting"],
+		"uniques": ["[+40]% Damage when intercepting","[+40]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter","Interceptor"]
 	},
 	{
@@ -560,13 +560,13 @@
 	{
 		"name": "Air Defenses",
 		"prerequisites": ["Flight Deck II"],
-		"uniques": ["[+15]% Strength <vs [Air] units>"],
+		"uniques": ["[+15]% Strength <vs [Air] units>","[50]% chance to intercept air attacks"],
 		"unitTypes": ["Starship"]
 	},
 	{
 		"name": "Maintenance Crew",
 		"prerequisites": ["Hyperdrive II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory"],
 		"unitTypes": ["Starship"]
 	},
 	//Jedi
@@ -583,7 +583,7 @@
 	{
 		"name": "Force Concentration",
 		"prerequisites": ["Force Stamina"],
-		"uniques": ["[+5] HP when healing","[+10] HP when healing <in [Friendly Land] tiles>"],
+		"uniques": ["[+5] HP when healing","[+10] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Jedi"]
 	},
 	{
@@ -600,13 +600,13 @@
 	},
 	{
 		"name": "Lightsaber Deflect",
-		"prerequisites": ["Lightsaber"],
+		"prerequisites": ["Lightsaber","Darksaber"],
 		"uniques": ["[+40]% Strength <vs [Ranged Battler] units> <when defending>","[+20]% Strength <vs [Jedi] units> <when defending>"],
 		"unitTypes": ["Jedi"]
 	},
 	{
 		"name": "Tactical Movement",
-		"uniques": ["Ignores Zone of Control"],
+		"uniques": ["Ignores Zone of Control","May withdraw before melee ([75]%)"],
 		"unitTypes": ["Recon","Battler","Ranged Battler","Mounted","Tactician","Mech","Siege","Jedi"]
 	}
 ]

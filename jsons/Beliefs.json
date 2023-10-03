@@ -118,7 +118,7 @@
 	{
         "name": "Wonder Mineral",
         "type": "Follower",
-        "uniques": ["[+1 Food, +1 Happiness] from all [Nova] tiles"]
+        "uniques": ["[+1 Food, +1 Happiness] from every [Nova]"]
     },
 	{
         "name": "Order Librarians",
@@ -143,7 +143,7 @@
 	{
         "name": "Secret Minerals",
         "type": "Follower",
-        "uniques": ["[+1 Culture] from all [Carbon] tiles [in cities following this religion]","[+1 Culture] from all [Ore] tiles [in cities following this religion]"]
+        "uniques": ["[+1 Culture] from every [Carbon]","[+1 Culture] from every [Ore]"]
     },
 	{
         "name": "Order of Builders",

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "The Star Wars Special Edition",
+        "civilopediaText":  [
+            {"text": "Welcome to The Star Wars: Special Edition!","header":4,"color": "#fa0"},
+            {"text": "Based on the original mod by Sullien, heavily modified by Lodo the Bear, aka SpacedOutChicken"},
+            {},
+            {"text": "Your Mission","header":4},
+            {"text": "You are the leader of a small force of colonizers, sent to this planet to conquer it in the name of one of the many factions vying for control of the galaxy. Your task is to build up your forces and take control of this place by whatever means necessary."},
+            {"text": "Will you build a powerful superweapon to impose order by military might? Will you attune yourself with the Force and establish a peaceful rule? Will you use diplomacy to unite the warring factions? Or will you simply destroy your enemies? The choice is up to you."},
+            {},
+            {"text": "Things to Know","header":4},
+            {"text": "One strategic resource to keep your eye on is Energy. Many buildings require it to function, and if you run out, you won't be able to build any more. Have your Droids build Power Core improvements wherever possible to keep your Energy levels high.","starred":true,"color":"#666"},
+            {"text": "Base terrains offer no stats, so you will need to build improvements everywhere in order to supply your cities with the stats they need.","starred":true,"color":"#666"},
+            {"text": "Religion is very important in this game, so don't wait to found yours! Get in touch with the Force and reap the benefits as early as possible.","starred":true,"color":"#666"},
+            {},
+            {"text": "Victory Types","header":4},
+            {"text": "Scientific: Assemble the Superweapon parts at the capital."},
+            {"text": "Cultural: Adopt four policies and build the Monument. Building the Monument has many benefits, so plan on building it even if Cultural Victory is disabled."},
+            {"text": "Diplomatic: Build the Planetary Senate and win the votes needed to secure your place as world leader."},
+            {"text": "Domination and Time: Same as the base game, no further explanation necessary."}
+        ]
+    }
+]

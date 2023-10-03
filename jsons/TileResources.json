@@ -487,11 +487,10 @@
 		"improvement": "Force Temple",
 		"improvementStats": {"faith": 1},
 		"terrainsCanBeFoundOn": ["Swamp","Jungle","Forest","Tundra","Snow"],
-		"uniques": ["Force Ore",
-		            "Generated with weight [35] <in [Swamp] tiles> <in tiles without [Hill]>",
-					"Generated with weight [60] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Generated with weight [60] <in [Forest] tiles> <in tiles without [Hill]>",
-					"Generated near City States with weight [10]"]
+		"uniques": ["Generated with weight [35] <in [Swamp] tiles> <in tiles without [Hill]>",
+		"Generated with weight [60] <in [Jungle] tiles> <in tiles without [Hill]>",
+		"Generated with weight [60] <in [Forest] tiles> <in tiles without [Hill]>",
+		"Generated near City States with weight [10]"]
 	},
 	{
 		"name": "Kyber",
@@ -500,11 +499,10 @@
 		"faith": 1,
 		"improvement": "Force Temple",
 		"improvementStats": {"faith": 1},
-		"uniques": ["Force Ore",
-		"Generated with weight [17] <in [Tundra] Regions>",
-					"Generated with weight [25] <in [Desert] Regions>",
-					"Generated with weight [25] <in [Hill] Regions>",
-					"Generated near City States with weight [10]"]
+		"uniques": ["Generated with weight [17] <in [Tundra] Regions>",
+		"Generated with weight [25] <in [Desert] Regions>",
+		"Generated with weight [25] <in [Hill] Regions>",
+		"Generated near City States with weight [10]"]
 	},
 	// City-state generated
 	{

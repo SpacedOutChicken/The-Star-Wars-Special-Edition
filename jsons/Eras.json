@@ -3,7 +3,7 @@
         "name": "Level 1",
         "researchAgreementCost": 100,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-        "startingSettlerUnit": "Founder",
+        "startingSettlerUnit": "Colonizer",
         "startingWorkerCount": 0,
         "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 1,
@@ -18,7 +18,7 @@
         "name": "Level 2",
         "researchAgreementCost": 200,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-		"startingSettlerUnit": "Founder",
+		"startingSettlerUnit": "Colonizer",
         "startingWorkerCount": 0,
         "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 2,
@@ -33,7 +33,7 @@
         "name": "Level 3",
         "researchAgreementCost": 300,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-		"startingSettlerUnit": "Founder",
+		"startingSettlerUnit": "Colonizer",
         "startingWorkerCount": 0,
         "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 3,
@@ -49,7 +49,7 @@
         "name": "Level 4",
         "researchAgreementCost": 400,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-		"startingSettlerUnit": "Founder",
+		"startingSettlerUnit": "Colonizer",
         "startingWorkerCount": 0,
         "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 3,
@@ -65,7 +65,7 @@
         "name": "Level 5",
         "researchAgreementCost": 500,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-		"startingSettlerUnit": "Founder",
+		"startingSettlerUnit": "Colonizer",
         "startingWorkerCount": 1,
         "startingWorkerUnit": "Droid",
         "startingMilitaryUnitCount": 3,
