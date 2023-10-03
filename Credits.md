@@ -8,6 +8,9 @@ Beliefs:
 City-states:
 * Militaristic: [Blaster](https://thenounproject.com/icon/blaster-4232588/) by iconcheese
 
+Promotions:
+* Darksaber: [katana](https://thenounproject.com/icon/katana-4730056/) by Handicon
+
 Other:
 * WLTK (Life Day) 1 and 2: [orb](https://thenounproject.com/icon/orb-4690193/) by Red
 
