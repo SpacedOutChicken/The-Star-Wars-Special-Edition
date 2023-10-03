@@ -15,9 +15,9 @@
             {"text": "Religion is very important in this game, so don't wait to found yours! Get in touch with the Force and reap the benefits as early as possible.","starred":true,"color":"#666"},
             {},
             {"text": "Victory Types","header":4},
-            {"text": "Scientific: Assemble the Superweapon parts at the capital."},
-            {"text": "Cultural: Adopt four policies and build the Monument. Building the Monument has many benefits, so plan on building it even if Cultural Victory is disabled."},
-            {"text": "Diplomatic: Build the Planetary Senate and win the votes needed to secure your place as world leader."},
+            {"text": "Scientific: Assemble the Superweapon parts at the capital.","link":"Building/Superweapon Blueprints"},
+            {"text": "Cultural: Adopt four policies and build the Monument. Building the Monument has many benefits, so plan on building it even if Cultural Victory is disabled.","link":"Building/Monument"},
+            {"text": "Diplomatic: Build the Planetary Senate and win the votes needed to secure your place as world leader.","link":"Building/Planetary Senate"},
             {"text": "Domination and Time: Same as the base game, no further explanation necessary."}
         ]
     }
