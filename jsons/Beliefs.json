@@ -169,7 +169,7 @@
     {
         "name": "No Death, only the Force",
         "type": "Enhancer",
-        "uniques": ["May buy [Force Ghost] units for [400] [Faith] [in all cities in which the majority religion is a enhanced religion] at an increasing price ([50])"]
+        "uniques": ["May buy [Force Ghost] units for [400] [Faith] [in all cities in which the majority religion is an enhanced religion] at an increasing price ([50])"]
     },
 	{
         "name": "Freedom through Victory",
