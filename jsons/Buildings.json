@@ -226,7 +226,7 @@
 		"requiredResource": "Ore",
 		"cityHealth": 15,
 		"uniques": ["Destroyed when the city is captured",
-		"Only available <in cities without a [Defensive Wall]>"]
+		"Only available <in cities without a [Defensive Turrets]>"]
 	},
 	{
 		"name": "Extended Training",
@@ -440,7 +440,7 @@
 		"requiredResource": "Energy",
 		"uniques": ["[+50]% Production when constructing [Infantry] units [in this city]",
 		"Destroyed when the city is captured",
-		"Only available <in cities without a [Squadron Deployment]>"]
+		"Only available <in cities without a [Veteran Training]>"]
 	},
     {
 		"name": "Reinforced Mechs",
@@ -480,7 +480,7 @@
 		"New [Tactician] units start with [20] Experience [in this city]",
 		"[+25]% Production when constructing [Civilian] units [in this city]",
 		"Destroyed when the city is captured",
-		"Only available <in cities without a [Secret Network]>"]
+		"Only available <in cities without a [Tactics Center]>"]
 	},
 	{
 		"name": "Flight School",
