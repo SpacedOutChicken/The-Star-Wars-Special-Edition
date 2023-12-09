@@ -1,0 +1,1987 @@
+
+Secondary.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Advanced Centers
+  rotate: false
+  xy: 420, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Laboratory
+  rotate: false
+  xy: 212, 586
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Mechs
+  rotate: false
+  xy: 528, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Parts
+  rotate: false
+  xy: 528, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Outpost
+  rotate: false
+  xy: 4, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Turrets
+  rotate: false
+  xy: 4, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Walls
+  rotate: false
+  xy: 4, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Shelters
+  rotate: false
+  xy: 212, 478
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Ships
+  rotate: false
+  xy: 636, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fleet Manufactory
+  rotate: false
+  xy: 636, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Orbital Scanner
+  rotate: false
+  xy: 636, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shipyard Station
+  rotate: false
+  xy: 636, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Altar of Heroes
+  rotate: false
+  xy: 4, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Automatic Extractor
+  rotate: false
+  xy: 1392, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Automatic Shelters
+  rotate: false
+  xy: 1500, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Biotech Focus
+  rotate: false
+  xy: 320, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cybertech Focus
+  rotate: false
+  xy: 320, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Build Motivator
+  rotate: false
+  xy: 320, 478
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Science Motivator
+  rotate: false
+  xy: 320, 478
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Center Base
+  rotate: false
+  xy: 112, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/City Shielding
+  rotate: false
+  xy: 112, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Units Shielding
+  rotate: false
+  xy: 112, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Credits Plan
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Health Plan
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Intergalactic Route
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Intergalactic Trade
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Specialist Center
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Specialist Industry
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tech Plan
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Virtue Plan
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Will Plan
+  rotate: false
+  xy: 328, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Defensive Turrets
+  rotate: false
+  xy: 328, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Defensive Wall
+  rotate: false
+  xy: 328, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Research Outpost
+  rotate: false
+  xy: 328, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tactical Outpost
+  rotate: false
+  xy: 328, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Economy District
+  rotate: false
+  xy: 220, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trading Board
+  rotate: false
+  xy: 220, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Efficient Energy
+  rotate: false
+  xy: 328, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Powered Assembly
+  rotate: false
+  xy: 328, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Energized Buildings
+  rotate: false
+  xy: 428, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fusion Core
+  rotate: false
+  xy: 428, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Enhanced Shelters
+  rotate: false
+  xy: 428, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Enhanced Trading
+  rotate: false
+  xy: 536, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Extended Training
+  rotate: false
+  xy: 428, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fast Deployment
+  rotate: false
+  xy: 428, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Extraction Motivator
+  rotate: false
+  xy: 536, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Farm Food
+  rotate: false
+  xy: 644, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hunt Food
+  rotate: false
+  xy: 644, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Flight School
+  rotate: false
+  xy: 536, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Manufacture Upgrades
+  rotate: false
+  xy: 536, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Force Academy
+  rotate: false
+  xy: 644, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Force Understanding
+  rotate: false
+  xy: 644, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Force Institution
+  rotate: false
+  xy: 644, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Force Training
+  rotate: false
+  xy: 644, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Frequency Scanner
+  rotate: false
+  xy: 752, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Operative Scanner
+  rotate: false
+  xy: 752, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Satellite Reveal
+  rotate: false
+  xy: 752, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fusion Extractor
+  rotate: false
+  xy: 860, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Heavy Extractor
+  rotate: false
+  xy: 860, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Heavy Turrets
+  rotate: false
+  xy: 860, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Heavy Wall
+  rotate: false
+  xy: 860, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Optimized Outpost
+  rotate: false
+  xy: 860, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Increased Energy
+  rotate: false
+  xy: 1076, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Smart Processor
+  rotate: false
+  xy: 1076, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Info Hub
+  rotate: false
+  xy: 1076, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Military School
+  rotate: false
+  xy: 1076, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Military Training
+  rotate: false
+  xy: 1292, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Production Cadets
+  rotate: false
+  xy: 1292, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Monument
+  rotate: false
+  xy: 1400, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Planetary Senate
+  rotate: false
+  xy: 1400, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Supercollider Blueprints
+  rotate: false
+  xy: 1400, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Supercollider Core
+  rotate: false
+  xy: 1400, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Supercollider Generator
+  rotate: false
+  xy: 1400, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Supercollider Structure
+  rotate: false
+  xy: 1400, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Supercollider
+  rotate: false
+  xy: 1400, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Network Station
+  rotate: false
+  xy: 1292, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Warfare Theory
+  rotate: false
+  xy: 1292, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Official Anexation
+  rotate: false
+  xy: 1400, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Optimized Biotech
+  rotate: false
+  xy: 1508, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Optimized Cybertech
+  rotate: false
+  xy: 1508, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Optimized Builds
+  rotate: false
+  xy: 1400, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Optimized Science
+  rotate: false
+  xy: 1400, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Parts Factory
+  rotate: false
+  xy: 1616, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Units Factory
+  rotate: false
+  xy: 1616, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Parts Industry
+  rotate: false
+  xy: 1508, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Units Industry
+  rotate: false
+  xy: 1508, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Powered Points
+  rotate: false
+  xy: 1724, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Processing Enhancer
+  rotate: false
+  xy: 1724, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Productive Extractor
+  rotate: false
+  xy: 1832, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Smart Extractor
+  rotate: false
+  xy: 1832, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Reactor Core
+  rotate: false
+  xy: 1940, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Reinforced Mechs
+  rotate: false
+  xy: 1940, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Replacing Parts
+  rotate: false
+  xy: 1940, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Secret Network
+  rotate: false
+  xy: 1940, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tactics Center
+  rotate: false
+  xy: 1940, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Self-Powering Shield
+  rotate: false
+  xy: 436, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shield Enhancing
+  rotate: false
+  xy: 436, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sith Shrine
+  rotate: false
+  xy: 436, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Special Base
+  rotate: false
+  xy: 436, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Specialist Facilities
+  rotate: false
+  xy: 544, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Specialist Factory
+  rotate: false
+  xy: 544, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Squadron Deployment
+  rotate: false
+  xy: 652, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Veteran Training
+  rotate: false
+  xy: 652, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Superweapon Blueprints
+  rotate: false
+  xy: 436, 146
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trade District
+  rotate: false
+  xy: 544, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trading Custom
+  rotate: false
+  xy: 544, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EmojiIcons/Culture
+  rotate: false
+  xy: 934, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Faith
+  rotate: false
+  xy: 1050, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Food
+  rotate: false
+  xy: 1166, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Gold
+  rotate: false
+  xy: 1282, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Happiness
+  rotate: false
+  xy: 1340, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Happy
+  rotate: false
+  xy: 1282, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Production
+  rotate: false
+  xy: 1572, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Science
+  rotate: false
+  xy: 1746, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unhappy
+  rotate: false
+  xy: 1804, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+NotificationIcons/EnhanceReligion
+  rotate: false
+  xy: 4, 802
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NotificationIcons/FoundPantheon
+  rotate: false
+  xy: 4, 802
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NotificationIcons/FoundReligion
+  rotate: false
+  xy: 4, 802
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NotificationIcons/ReformReligion
+  rotate: false
+  xy: 4, 802
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickConstruction
+  rotate: false
+  xy: 4, 594
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickPolicy
+  rotate: false
+  xy: 212, 802
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickTech
+  rotate: false
+  xy: 4, 386
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NotificationIcons/WorldCongressVote
+  rotate: false
+  xy: 652, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Academics
+  rotate: false
+  xy: 212, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Senses Meditation
+  rotate: false
+  xy: 212, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Advanced Expansion
+  rotate: false
+  xy: 4, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Animal Cloning
+  rotate: false
+  xy: 744, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Nano-Biology
+  rotate: false
+  xy: 744, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Applied Discoveries
+  rotate: false
+  xy: 852, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Terrain Tactics
+  rotate: false
+  xy: 852, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Armed Survivalists
+  rotate: false
+  xy: 960, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Army Upgrading
+  rotate: false
+  xy: 1068, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Artificial Intelligence
+  rotate: false
+  xy: 1176, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Intergalactic Research
+  rotate: false
+  xy: 1176, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Automated Network
+  rotate: false
+  xy: 1284, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Bacta Tanks
+  rotate: false
+  xy: 1608, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Banking Network
+  rotate: false
+  xy: 1716, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Endorsement
+  rotate: false
+  xy: 1716, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Battle Reserves
+  rotate: false
+  xy: 1824, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Weapons Depot
+  rotate: false
+  xy: 1824, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Bio-Research
+  rotate: false
+  xy: 1932, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Funded Research
+  rotate: false
+  xy: 1932, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Breakthrough
+  rotate: false
+  xy: 320, 586
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Carbo-Extractor
+  rotate: false
+  xy: 112, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Processing Advances
+  rotate: false
+  xy: 112, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Clean Energy
+  rotate: false
+  xy: 220, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Experimental Mining
+  rotate: false
+  xy: 220, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Combined Assault
+  rotate: false
+  xy: 220, 262
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Controlled Fauna
+  rotate: false
+  xy: 220, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Veteran Survivors
+  rotate: false
+  xy: 220, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Deal Closing
+  rotate: false
+  xy: 328, 262
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Force Influence
+  rotate: false
+  xy: 752, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Mystery Understanding
+  rotate: false
+  xy: 752, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Force Strength
+  rotate: false
+  xy: 752, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Force Sustain
+  rotate: false
+  xy: 860, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Wonder Find
+  rotate: false
+  xy: 860, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Heavy Engineering
+  rotate: false
+  xy: 968, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Tactical Superiority
+  rotate: false
+  xy: 968, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Highest Bounty
+  rotate: false
+  xy: 968, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Smuggling Operation
+  rotate: false
+  xy: 968, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Industry Spies
+  rotate: false
+  xy: 968, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Instituted Temples
+  rotate: false
+  xy: 1184, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Relative Interests
+  rotate: false
+  xy: 1184, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Intergalactic Reinforcements
+  rotate: false
+  xy: 1076, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Military Campaign
+  rotate: false
+  xy: 1076, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Intergalactic Reputation
+  rotate: false
+  xy: 1184, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Trade Association
+  rotate: false
+  xy: 1184, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Market Planning
+  rotate: false
+  xy: 1292, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Trade Tracing
+  rotate: false
+  xy: 1292, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Military Economy
+  rotate: false
+  xy: 1184, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Terrain Assault
+  rotate: false
+  xy: 1184, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Order of the Force
+  rotate: false
+  xy: 1508, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Planned Supplies
+  rotate: false
+  xy: 1616, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Reserve Stockpile
+  rotate: false
+  xy: 1616, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Prime Producers
+  rotate: false
+  xy: 1616, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Trade Communications
+  rotate: false
+  xy: 1616, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Prime Terrain
+  rotate: false
+  xy: 1724, 686
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Private Routes
+  rotate: false
+  xy: 1832, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Trade Studies
+  rotate: false
+  xy: 1832, 794
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Quick Founding
+  rotate: false
+  xy: 1832, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Supply Reserves
+  rotate: false
+  xy: 1832, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Snipers
+  rotate: false
+  xy: 544, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Uncharted Territories
+  rotate: false
+  xy: 544, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Combat
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fusion Cutter
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scramble
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Strike
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Defense
+  rotate: false
+  xy: 760, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Defenses
+  rotate: false
+  xy: 760, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Perimeter
+  rotate: false
+  xy: 436, 88
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Raids
+  rotate: false
+  xy: 544, 196
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Repair
+  rotate: false
+  xy: 652, 304
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Field Repairs
+  rotate: false
+  xy: 652, 304
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Maintenance Crew
+  rotate: false
+  xy: 652, 304
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ambush Squad
+  rotate: false
+  xy: 62, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disruption
+  rotate: false
+  xy: 62, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Armor Shells
+  rotate: false
+  xy: 760, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Logic Strike
+  rotate: false
+  xy: 760, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Seeker Missiles
+  rotate: false
+  xy: 760, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bacta Tanks
+  rotate: false
+  xy: 818, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Field Medics
+  rotate: false
+  xy: 818, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Field Supplies
+  rotate: false
+  xy: 818, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Healing
+  rotate: false
+  xy: 818, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Supply Guard
+  rotate: false
+  xy: 818, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Battler Logistics
+  rotate: false
+  xy: 120, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bunkerbuster
+  rotate: false
+  xy: 760, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Incendiary
+  rotate: false
+  xy: 760, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Vanguard
+  rotate: false
+  xy: 760, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Chokepoint
+  rotate: false
+  xy: 818, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Concentration
+  rotate: false
+  xy: 818, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Open Combat
+  rotate: false
+  xy: 818, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Open Warfare
+  rotate: false
+  xy: 818, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cleanup Crew
+  rotate: false
+  xy: 876, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Combat Analysis
+  rotate: false
+  xy: 818, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crew Defenses
+  rotate: false
+  xy: 876, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Retaliation
+  rotate: false
+  xy: 876, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Darksaber
+  rotate: false
+  xy: 876, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Defensive Stance
+  rotate: false
+  xy: 934, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Return of the Jedi
+  rotate: false
+  xy: 934, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Deploy Flares
+  rotate: false
+  xy: 992, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavy Bombs
+  rotate: false
+  xy: 992, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Dispersion Strike
+  rotate: false
+  xy: 934, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Frontlines
+  rotate: false
+  xy: 934, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Supply Refill
+  rotate: false
+  xy: 934, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Electrostaff
+  rotate: false
+  xy: 992, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lightsaber
+  rotate: false
+  xy: 992, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Elite Recon
+  rotate: false
+  xy: 1050, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Swordplay
+  rotate: false
+  xy: 1050, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Energy Shield
+  rotate: false
+  xy: 992, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Expertise
+  rotate: false
+  xy: 1050, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Extended Movement
+  rotate: false
+  xy: 1108, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Speed
+  rotate: false
+  xy: 1108, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hyperdrive
+  rotate: false
+  xy: 1108, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Light Armor
+  rotate: false
+  xy: 1108, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Terrain Adapt
+  rotate: false
+  xy: 1108, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Turbo Engine
+  rotate: false
+  xy: 1108, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Faith in the Force
+  rotate: false
+  xy: 1108, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/First Strike
+  rotate: false
+  xy: 1108, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Barrier
+  rotate: false
+  xy: 1108, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Drain
+  rotate: false
+  xy: 1108, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Influence
+  rotate: false
+  xy: 1108, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Jump
+  rotate: false
+  xy: 1108, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Rage
+  rotate: false
+  xy: 1108, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Strength
+  rotate: false
+  xy: 1108, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Cloak
+  rotate: false
+  xy: 1108, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Undercover
+  rotate: false
+  xy: 1108, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Ghost
+  rotate: false
+  xy: 1166, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Grip
+  rotate: false
+  xy: 1224, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Lightning
+  rotate: false
+  xy: 1166, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Perception
+  rotate: false
+  xy: 1224, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Siphon
+  rotate: false
+  xy: 1282, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Force Stamina
+  rotate: false
+  xy: 1224, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heal Instantly
+  rotate: false
+  xy: 1340, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hero
+  rotate: false
+  xy: 1398, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heroism
+  rotate: false
+  xy: 1398, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hostile Takeover
+  rotate: false
+  xy: 1340, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Targeted Strikes
+  rotate: false
+  xy: 1340, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Turrets
+  rotate: false
+  xy: 1340, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Indoctrination
+  rotate: false
+  xy: 1398, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Jetpack
+  rotate: false
+  xy: 1456, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kaminoan Training
+  rotate: false
+  xy: 1398, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lightsaber Deflect
+  rotate: false
+  xy: 1456, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Macrobinoculars
+  rotate: false
+  xy: 1514, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Merciless
+  rotate: false
+  xy: 1456, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mind Trick
+  rotate: false
+  xy: 1514, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Order Guardian
+  rotate: false
+  xy: 1572, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Passion
+  rotate: false
+  xy: 1514, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Payday
+  rotate: false
+  xy: 1572, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Portable Scanners
+  rotate: false
+  xy: 1630, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Raid Supplies
+  rotate: false
+  xy: 1630, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Setting Camp
+  rotate: false
+  xy: 1630, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Supply Drop
+  rotate: false
+  xy: 1630, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rebel Spirit
+  rotate: false
+  xy: 1688, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reinforced Blasters
+  rotate: false
+  xy: 1630, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reinforced Plating
+  rotate: false
+  xy: 1688, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rush Repairs
+  rotate: false
+  xy: 1746, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scarred
+  rotate: false
+  xy: 1688, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Stormtrooper Armor
+  rotate: false
+  xy: 1804, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tactical Deployment
+  rotate: false
+  xy: 1746, 404
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tactical Movement
+  rotate: false
+  xy: 1804, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Thermal Detonator
+  rotate: false
+  xy: 1862, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Urban Specialist
+  rotate: false
+  xy: 1862, 462
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wisdom
+  rotate: false
+  xy: 1920, 520
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
